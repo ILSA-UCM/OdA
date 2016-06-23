@@ -1,0 +1,41 @@
+/* ENLACES */
+
+/*
+a.enlace:link { text-decoration: none; color: #133F82; }
+a.enlace:visited { text-decoration: none; color: #133F82; }
+a.enlace:hover { text-decoration: underline; color: #133F82; }*/
+
+
+
+/* Editor Enriquecido */
+.titulo1 {	font-weight: bold;	font-size: 14px;line-height: 1.6em;}
+.titulo2 {	font-weight: bold;	font-size: 13px;line-height: 1.4em;}
+.titulo3 {	font-weight: bold;	font-size: 12px;line-height: 1.4em;}
+.destacado {font-weight: bold;font-size: 11px;line-height: 1.4em;}
+.normal {	font-weight: none;	font-size: 11px;line-height: 1.4em;	color: #000000;}
+
+
+.vermas		{	font-size:10px;}
+
+
+
+/*.bloquelogin	{		height:20px; background-color:#f4f4f4; padding-left:4px;padding-right:4px;padding-top:4px;
+						color:#757575;font-size:10px; }*/
+/*.bloquemenuder		{	height:20px; background-color:#feba01; padding-left:4px;padding-right:4px;font-weight:bold;color:#ffffff;
+						text-align:center;font-size:10px; border-bottom:1px solid #b4afac;}
+
+
+
+.bloquelogin	{		height:20px; background-color:#f4f4f4; padding-left:4px;padding-right:4px;padding-top:4px;
+						color:#757575;font-size:10px; }
+*/
+/*
+a.enlacepag:link { text-decoration: none; color: #9f9f9f;}
+a.enlacepag:visited {text-decoration: none;color: #9f9f9f;}
+a.enlacepag:hover { text-decoration: underline; color: #fe9601;}/* color 2 */
+
+
+
+
+
+/* MENUS */

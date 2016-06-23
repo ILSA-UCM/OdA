@@ -1,0 +1,51 @@
+<?php 
+include_once(getcwd()."/include.php");
+$titulopaginabo="Menu de Import/Export";
+$explicaciontitulopaginabo="Menu de proceso de importacion y exportacion en XLS";
+$visit->options->seccion = "Import/Export";
+$visit->options->subseccion = "Import/Export";
+include_once(getcwd()."/bo_top.php");
+?>
+
+<?php
+$teamImage = $_FILES["teamImage"];
+
+/*
+$APPLICATION_ID = "XXXXXXXXXXXXXXXXXXX";
+$REST_API_KEY = "XXXXXXXXXXXXXXXXXXX";
+*/
+
+$Server="localhost:8080";
+$ServerService='http://'.ClavyServer.':'.ClavyPort.'/'.ClavyDomine.'/rest/service/';
+
+$urlFile = $ServerService.'uploadoda2';
+//$urlFile = 'https://api.parse.com/1/files/' . $teamImage['name'];
+$image = $teamImage['tmp_name'];
+
+/*
+$headerFile = array(
+    'X-Parse-Application-Id: ' . $APPLICATION_ID,
+    'X-Parse-REST-API-Key: ' . $REST_API_KEY,
+    'Content-Type: ' . $teamImage['type'],
+    'Content-Length: ' . strlen($image),
+);*/
+
+echo hola;
+
+$curlFile = curl_init($urlFile);
+curl_setopt($curlFile, CURLOPT_POST, 1);
+curl_setopt($curlFile, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($curlFile, CURLOPT_POSTFIELDS, $image);
+//curl_setopt($curlFile, CURLOPT_HTTPHEADER, $headerFile);
+curl_setopt($curlFile, CURLOPT_SSL_VERIFYPEER, false); 
+
+$responseFile = curl_exec($curlFile);
+$httpCodeFile = curl_getinfo($curlFile, CURLINFO_HTTP_CODE);
+
+$result = array('code'=>$httpCodeFile, 'response'=>$responseFile);
+echo hola2;
+ ?>
+
+<?php
+include_once(getcwd()."/bo_bottom.php");
+?>

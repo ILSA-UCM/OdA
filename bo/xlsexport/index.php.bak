@@ -1,0 +1,39 @@
+<?php 
+include_once(getcwd()."/include.php");
+$titulopaginabo="Menu de Import/Export";
+$explicaciontitulopaginabo="Menu de proceso de importacion y exportacion en XLS";
+$visit->options->seccion = "Import/Export";
+$visit->options->subseccion = "Import/Export";
+include_once(getcwd()."/bo_top.php");
+?>
+
+<?php
+$Server="localhost:8080"
+$ServerService='http://'.ClavyServer.':'.ClavyPort.'/'.ClavyDomine.'/rest/service/';
+$curl = curl_init($service_url);
+
+
+curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+$curl_response = curl_exec($curl);
+if ($curl_response === false) {
+    $info = curl_getinfo($curl);
+    curl_close($curl);
+    die('error occured during curl exec. Additioanl info: ' . var_export($info));
+}
+$status = curl_getinfo($curl);
+curl_close($curl);
+echo $status['http_code']."<br>";
+echo $curl_response;
+echo "<br>";
+//$decoded = json_decode($curl_response);
+//if (isset($decoded->response->status) && $decoded->response->status == 'ERROR') {
+//    die('error occured: ' . $decoded->response->errormessage);
+//}
+
+echo 'response ok!';
+//var_export($decoded->response);
+ ?>
+
+<?php
+include_once(getcwd()."/bo_bottom.php");
+?>

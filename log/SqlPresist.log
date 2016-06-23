@@ -1,0 +1,1719 @@
+20140903 15:09:50'579: UPDATE usuarios SET nombre= 'super1',
+				apellidos= 'super2',
+				correo= 'test@test.test',
+				login= 'superadmin',
+				password= 'superadmin',
+				rol= 'A',
+				ultimo_acceso= '20140903145927' WHERE id=1
+20140903 15:17:48'68: UPDATE usuarios SET nombre= 'user1',
+				apellidos= 'user2',
+				correo= 'test@test.test',
+				login= 'user',
+				password= 'user',
+				rol= 'C',
+				ultimo_acceso= '20140903151614' WHERE id=111
+20140903 15:26:32'319: UPDATE usuarios SET nombre= 'admin1',
+				apellidos= 'admin2',
+				correo= 'test@test.test',
+				login= 'admin',
+				password= 'admin',
+				rol= 'B',
+				ultimo_acceso= '20140903152025' WHERE id=11
+20140903 15:56:28'116: UPDATE usuarios SET nombre= 'super1',
+				apellidos= 'super2',
+				correo= 'test@test.test',
+				login= 'superadmin',
+				password= 'superadmin',
+				rol= 'A',
+				ultimo_acceso= '20140903155423' WHERE id=1
+20140903 17:14:53'235: UPDATE usuarios SET nombre= 'super1',
+				apellidos= 'super2',
+				correo= 'test@test.test',
+				login= 'superadmin',
+				password= 'superadmin',
+				rol= 'A',
+				ultimo_acceso= '20140903171227' WHERE id=1
+20140903 17:30:38'918: UPDATE usuarios SET nombre= 'super1',
+				apellidos= 'super2',
+				correo= 'test@test.test',
+				login= 'superadmin',
+				password= 'superadmin',
+				rol= 'A',
+				ultimo_acceso= '20140903172837' WHERE id=1
+20140903 17:31:56'537: UPDATE usuarios SET nombre= 'admin1',
+				apellidos= 'admin2',
+				correo= 'test@test.test',
+				login= 'admin',
+				password= 'admin',
+				rol= 'B',
+				ultimo_acceso= '20140903173123' WHERE id=11
+20140903 17:32:51'903: UPDATE usuarios SET nombre= 'user1',
+				apellidos= 'user2',
+				correo= 'test@test.test',
+				login= 'user',
+				password= 'user',
+				rol= 'C',
+				ultimo_acceso= '20140903173215' WHERE id=111
+20140903 17:52:55'632: UPDATE usuarios SET nombre= 'super1',
+				apellidos= 'super2',
+				correo= 'test@test.test',
+				login= 'superadmin',
+				password= 'superadmin',
+				rol= 'A',
+				ultimo_acceso= '20140903175135' WHERE id=1
+20140903 17:54:16'937: UPDATE usuarios SET nombre= 'user1',
+				apellidos= 'user2',
+				correo= 'test@test.test',
+				login= 'user',
+				password= 'user',
+				rol= 'C',
+				ultimo_acceso= '20140903175340' WHERE id=111
+20140903 23:30:31'725: UPDATE usuarios SET nombre= 'admin1',
+				apellidos= 'admin2',
+				correo= 'test@test.test',
+				login= 'admin',
+				password= 'admin',
+				rol= 'B',
+				ultimo_acceso= '20140903175523' WHERE id=11
+20140904 15:52:29'593: UPDATE usuarios SET nombre= 'super1',
+				apellidos= 'super2',
+				correo= 'test@test.test',
+				login= 'superadmin',
+				password= 'superadmin',
+				rol= 'A',
+				ultimo_acceso= '20140904155109' WHERE id=1
+20140904 15:54:11'564: UPDATE usuarios SET nombre= 'admin1',
+				apellidos= 'admin2',
+				correo= 'test@test.test',
+				login= 'admin',
+				password= 'admin',
+				rol= 'B',
+				ultimo_acceso= '20140904155309' WHERE id=11
+20140904 15:55:11'801: UPDATE usuarios SET nombre= 'user1',
+				apellidos= 'user2',
+				correo= 'test@test.test',
+				login= 'user',
+				password= 'user',
+				rol= 'C',
+				ultimo_acceso= '20140904155432' WHERE id=111
+20140905 10:31:37'743: UPDATE usuarios SET nombre= 'super1',
+				apellidos= 'super2',
+				correo= 'test@test.test',
+				login= 'superadmin',
+				password= 'superadmin',
+				rol= 'A',
+				ultimo_acceso= '20140905102757' WHERE id=1
+20140905 10:36:30'73: INSERT INTO navegacion(nombre, tooltip, idpadre, visible, orden, tipo_contenido, idpagina, tipo, nombreseo, imagen, contenido,  url, tiene_contenido, protocolo, ventanaexterna) VALUES ('Acceso a la BD',NULL,0,'S',1022,'A',NULL,'I','acceso_a_la_bd',NULL,NULL,NULL,'S',NULL,'N' )
+20140905 10:53:18'972: UPDATE virtual_object SET ispublic= 'N',
+				isprivate= 'S' WHERE id=1344
+20140905 10:53:19'60: INSERT INTO date_data(idov, idseccion, idrecurso, value) VALUES (1344,395,NULL,'20050519' )
+20140905 10:53:19'159: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'sello11.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4327
+20140905 10:53:19'163: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'investchirije.html',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4328
+20140905 10:53:19'167: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'logomanabi.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4329
+20140905 10:53:19'172: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'tolassj2.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4330
+20140905 10:53:19'176: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'playachi.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4331
+20140905 10:53:19'180: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'terraza.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4332
+20140905 10:53:19'184: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'esterochi.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4333
+20140905 10:53:19'190: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'cortechi1.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4334
+20140905 10:53:19'194: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'trincherachi1.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4335
+20140905 10:53:19'199: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'trincherachi2.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4336
+20140905 10:53:19'205: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'piedras1.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4337
+20140905 10:53:19'209: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'levantachi.gif',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4338
+20140905 10:53:19'213: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'chirije1.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4339
+20140905 10:53:19'218: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'cerrara.gif',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4342
+20140905 10:53:19'222: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'cerrarb.gif',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4343
+20140905 10:53:19'226: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'raya.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4344
+20140905 10:53:19'230: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'efectos.js',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4345
+20140905 10:53:19'250: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'estilointro.css',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4346
+20140905 10:53:19'254: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'estructura1este.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4347
+20140905 10:53:19'362: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'j8-desde-j2.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4348
+20140905 10:53:19'369: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'anaangeles.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4349
+20140905 10:53:19'409: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'carlos2009.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4350
+20140905 10:53:19'414: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'equipo2009.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4351
+20140905 10:53:19'442: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'j1geofisica.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4352
+20140905 10:53:19'448: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'j1yj82009.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4353
+20140905 10:53:19'649: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'julia2009.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4354
+20140905 10:53:19'656: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'semicassis2009.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4355
+20140905 10:53:19'690: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'S',
+				name= 'sombrerosw.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4326
+20140905 10:53:19'696: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'N',
+				name= 'chiva42.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4340
+20140905 10:53:19'700: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'N',
+				name= 'infofrances.html',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4341
+20140905 10:53:19'704: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'N',
+				name= 'japoto 2009.html',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4356
+20140905 10:53:19'708: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'N',
+				name= 'equipo2009.html',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4357
+20140905 10:53:19'712: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'N',
+				name= 'organismos2009.html',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=4358
+20140905 10:53:19'716: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'N',
+				name= NULL,
+				idov_refered= 1744,
+				idresource_refered= NULL,
+				type= 'OV' WHERE id=4359
+20140905 10:53:19'720: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'N',
+				name= NULL,
+				idov_refered= 1743,
+				idresource_refered= NULL,
+				type= 'OV' WHERE id=4360
+20140905 10:53:19'724: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'N',
+				name= NULL,
+				idov_refered= 1930,
+				idresource_refered= NULL,
+				type= 'OV' WHERE id=4361
+20140905 10:53:19'727: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'N',
+				name= NULL,
+				idov_refered= 2206,
+				idresource_refered= NULL,
+				type= 'OV' WHERE id=4362
+20140905 10:53:19'732: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'N',
+				name= NULL,
+				idov_refered= 2214,
+				idresource_refered= NULL,
+				type= 'OV' WHERE id=4363
+20140905 10:53:19'736: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'N',
+				name= NULL,
+				idov_refered= 2278,
+				idresource_refered= NULL,
+				type= 'OV' WHERE id=4364
+20140905 10:53:19'740: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'N',
+				name= NULL,
+				idov_refered= 2193,
+				idresource_refered= NULL,
+				type= 'OV' WHERE id=4365
+20140905 10:53:19'744: UPDATE resources SET idov= 1344,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'N',
+				name= NULL,
+				idov_refered= 2210,
+				idresource_refered= NULL,
+				type= 'OV' WHERE id=4366
+20140905 10:53:19'798: INSERT INTO log_modificaciones(idusuario, fechaModificacion, tipo, idov) VALUES (1,'20140905105318','M','1344' )
+20140905 10:53:49'740: UPDATE virtual_object SET ispublic= 'N',
+				isprivate= 'S' WHERE id=1
+20140905 10:53:49'761: UPDATE numeric_data SET idov= 1,
+				idseccion= 337,
+				idrecurso= NULL,
+				value= '2.000000000000000' WHERE id=948
+20140905 10:53:49'765: UPDATE numeric_data SET idov= 1,
+				idseccion= 339,
+				idrecurso= NULL,
+				value= '38.000000000000000' WHERE id=949
+20140905 10:53:49'917: UPDATE resources SET idov= 1,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'S',
+				name= '1.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=469
+20140905 10:53:49'922: UPDATE resources SET idov= 1,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'N',
+				name= 'web1.pdf',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=470
+20140905 10:53:49'922: INSERT INTO log_modificaciones(idusuario, fechaModificacion, tipo, idov) VALUES (1,'20140905105349','M','1' )
+20140905 10:54:26'893: UPDATE usuarios SET nombre= 'super1',
+				apellidos= 'super2',
+				correo= 'test@test.test',
+				login= 'superadmin',
+				password= 'superadmin',
+				rol= 'A',
+				ultimo_acceso= '20140905103344' WHERE id=1
+20140905 10:57:11'938: UPDATE navegacion SET nombre= 'Acceso Secuencial a la Base de Datos',
+				tooltip= NULL,
+				idpadre= 8,
+				visible= 'S',
+				orden= 8,
+				tipo_contenido= 'U',
+				idpagina= NULL,
+				tipo= 'I',
+				nombreseo= 'acceso_secuencial_a_la_base_de_datos',
+				imagen= NULL,
+				contenido= NULL,
+				url= 'localhost/chasquiV4-ref/view/cm_view_virtual_object.php?idov=1&seleccion=1',
+				tiene_contenido= 'S',
+				protocolo= 'http://',
+				ventanaexterna= 'S' WHERE id=21
+20140905 10:58:40'750: UPDATE usuarios SET nombre= 'super1',
+				apellidos= 'super2',
+				correo= 'test@test.test',
+				login= 'superadmin',
+				password= 'superadmin',
+				rol= 'A',
+				ultimo_acceso= '20140905105630' WHERE id=1
+20140905 12:48:58'806: UPDATE navegacion SET nombre= 'Acceso a la BD',
+				tooltip= NULL,
+				idpadre= 8,
+				visible= 'S',
+				orden= 9,
+				tipo_contenido= 'A',
+				idpagina= NULL,
+				tipo= 'I',
+				nombreseo= 'acceso_a_la_bd',
+				imagen= NULL,
+				contenido= NULL,
+				url= NULL,
+				tiene_contenido= 'S',
+				protocolo= NULL,
+				ventanaexterna= 'N' WHERE id=26
+20140905 13:04:31'516: UPDATE navegacion SET nombre= 'Acceso Secuencial a la Base de Datos',
+				tooltip= NULL,
+				idpadre= 8,
+				visible= 'S',
+				orden= 8,
+				tipo_contenido= 'U',
+				idpagina= NULL,
+				tipo= 'I',
+				nombreseo= 'acceso_secuencial_a_la_base_de_datos',
+				imagen= NULL,
+				contenido= NULL,
+				url= 'localhost/chasquiV4-ref/view/cm_view_virtual_object.php?idov=1&seleccion=1',
+				tiene_contenido= 'S',
+				protocolo= 'http://',
+				ventanaexterna= 'S' WHERE id=21
+20140905 13:04:41'516: UPDATE navegacion SET nombre= 'Acceso a la BD',
+				tooltip= NULL,
+				idpadre= 8,
+				visible= 'S',
+				orden= 9,
+				tipo_contenido= 'A',
+				idpagina= NULL,
+				tipo= 'I',
+				nombreseo= 'acceso_a_la_bd',
+				imagen= NULL,
+				contenido= NULL,
+				url= NULL,
+				tiene_contenido= 'S',
+				protocolo= NULL,
+				ventanaexterna= 'N' WHERE id=26
+20140905 13:09:24'229: UPDATE usuarios SET nombre= 'super1',
+				apellidos= 'super2',
+				correo= 'test@test.test',
+				login= 'superadmin',
+				password= 'superadmin',
+				rol= 'A',
+				ultimo_acceso= '20140905115432' WHERE id=1
+20140905 13:10:48'901: UPDATE usuarios SET nombre= 'admin1',
+				apellidos= 'admin2',
+				correo= 'test@test.test',
+				login= 'admin',
+				password= 'admin',
+				rol= 'B',
+				ultimo_acceso= '20140905130951' WHERE id=11
+20140906 13:06:52'911: UPDATE usuarios SET nombre= 'super1',
+				apellidos= 'super2',
+				correo= 'test@test.test',
+				login= 'superadmin',
+				password= 'superadmin',
+				rol= 'A',
+				ultimo_acceso= '20140906124755' WHERE id=1
+20140907 13:42:15'115: INSERT INTO navegacion(nombre, tooltip, idpadre, visible, orden, tipo_contenido, idpagina, tipo, nombreseo, imagen, contenido,  url, tiene_contenido, protocolo, ventanaexterna) VALUES ('Acceso a la BD',NULL,0,'S',1022,'A',NULL,'I','acceso_a_la_bd',NULL,NULL,NULL,'S',NULL,'N' )
+20140907 13:43:57'417: INSERT INTO navegacion(nombre, tooltip, idpadre, visible, orden, tipo_contenido, idpagina, tipo, nombreseo, imagen, contenido,  url, tiene_contenido, protocolo, ventanaexterna) VALUES ('Acceso BD',NULL,0,'S',1021,'A',NULL,'I','acceso_bd',NULL,NULL,NULL,'S',NULL,'N' )
+20140907 13:53:49'393: INSERT INTO navegacion(nombre, tooltip, idpadre, visible, orden, tipo_contenido, idpagina, tipo, nombreseo, imagen, contenido,  url, tiene_contenido, protocolo, ventanaexterna) VALUES ('BD','BD',0,'S',1021,'A',NULL,'I','bd',NULL,NULL,NULL,'S',NULL,'N' )
+20140907 14:03:46'157: INSERT INTO navegacion(nombre, tooltip, idpadre, visible, orden, tipo_contenido, idpagina, tipo, nombreseo, imagen, contenido,  url, tiene_contenido, protocolo, ventanaexterna) VALUES ('BaseDatos',NULL,0,'S',1021,'A',NULL,'I','basedatos',NULL,NULL,NULL,'S',NULL,'N' )
+20140907 14:11:20'832: UPDATE navegacion SET nombre= 'BaseDatos',
+				tooltip= NULL,
+				idpadre= 8,
+				visible= 'S',
+				orden= 1021,
+				tipo_contenido= 'A',
+				idpagina= NULL,
+				tipo= 'I',
+				nombreseo= 'basedatos',
+				imagen= NULL,
+				contenido= NULL,
+				url= NULL,
+				tiene_contenido= 'S',
+				protocolo= NULL,
+				ventanaexterna= 'N' WHERE id=34
+20140907 14:35:44'731: UPDATE usuarios SET nombre= 'super1',
+				apellidos= 'super2',
+				correo= 'test@test.test',
+				login= 'superadmin',
+				password= 'superadmin',
+				rol= 'A',
+				ultimo_acceso= '20140907133543' WHERE id=1
+20140908 14:21:55'992: UPDATE virtual_object SET ispublic= 'S',
+				isprivate= 'N' WHERE id=2319
+20140908 14:21:56'38: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2319,112,NULL,NULL )
+20140908 14:21:56'100: INSERT INTO date_data(idov, idseccion, idrecurso, value) VALUES (2319,395,NULL,'20140831' )
+20140908 14:21:56'193: UPDATE resources SET idov= 2319,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'S',
+				name= 'IMG_5100copia.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=8171
+20140908 14:21:56'214: INSERT INTO log_modificaciones(idusuario, fechaModificacion, tipo, idov) VALUES (1,'20140908142155','M','2319' )
+20140908 14:23:03'359: UPDATE usuarios SET nombre= 'super1',
+				apellidos= 'super2',
+				correo= 'test@test.test',
+				login= 'superadmin',
+				password= 'superadmin',
+				rol= 'A',
+				ultimo_acceso= '20140908141900' WHERE id=1
+20140909 19:54:01'652: UPDATE section_data SET idpadre= 336,
+				nombre= 'Diámetro',
+				codigo= NULL,
+				tooltip= NULL,
+				visible= 'S',
+				orden= 1,
+				browseable= NULL,
+				tipo_valores= 'N',
+				extensible= 'S',
+				vocabulario= 0,
+				decimales= 2 WHERE id=337
+20140909 19:54:38'567: UPDATE virtual_object SET ispublic= 'S',
+				isprivate= 'N' WHERE id=2287
+20140909 19:54:38'588: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (2287,337,NULL,'4.00' )
+20140909 19:54:38'734: UPDATE resources SET idov= 2287,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'S',
+				name= 'IMG_4947.JPG',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=8158
+20140909 19:54:38'755: INSERT INTO log_modificaciones(idusuario, fechaModificacion, tipo, idov) VALUES (1,'20140909195438','M','2287' )
+20140909 19:59:18'546: UPDATE virtual_object SET ispublic= 'S',
+				isprivate= 'N' WHERE id=2287
+20140909 19:59:18'564: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (2287,337,NULL,'4.4' )
+20140909 19:59:18'673: UPDATE resources SET idov= 2287,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'S',
+				name= 'IMG_4947.JPG',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=8158
+20140909 19:59:18'673: INSERT INTO log_modificaciones(idusuario, fechaModificacion, tipo, idov) VALUES (1,'20140909195918','M','2287' )
+20140909 20:00:26'375: UPDATE usuarios SET nombre= 'super1',
+				apellidos= 'super2',
+				correo= 'test@test.test',
+				login= 'superadmin',
+				password= 'superadmin',
+				rol= 'A',
+				ultimo_acceso= '20140909195044' WHERE id=1
+20140910 12:07:10'227: UPDATE usuarios SET nombre= 'admin1',
+				apellidos= 'admin2',
+				correo= 'test@test.test',
+				login= 'admin',
+				password= 'admin',
+				rol= 'B',
+				ultimo_acceso= '20140910114313' WHERE id=11
+20140910 12:07:58'191: UPDATE usuarios SET nombre= 'super1',
+				apellidos= 'super2',
+				correo= 'test@test.test',
+				login= 'superadmin',
+				password= 'superadmin',
+				rol= 'A',
+				ultimo_acceso= '20140910120725' WHERE id=1
+20140910 13:00:59'451: UPDATE virtual_object SET ispublic= 'N',
+				isprivate= 'S' WHERE id=1
+20140910 13:00:59'469: UPDATE numeric_data SET idov= 1,
+				idseccion= 337,
+				idrecurso= NULL,
+				value= '2.000000000000000' WHERE id=948
+20140910 13:00:59'472: UPDATE numeric_data SET idov= 1,
+				idseccion= 339,
+				idrecurso= NULL,
+				value= '38.000000000000000' WHERE id=949
+20140910 13:00:59'615: UPDATE resources SET idov= 1,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'S',
+				name= '1.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=469
+20140910 13:00:59'619: UPDATE resources SET idov= 1,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'N',
+				name= 'web1.pdf',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=470
+20140910 13:00:59'645: INSERT INTO log_modificaciones(idusuario, fechaModificacion, tipo, idov) VALUES (1,'20140910130059','M','1' )
+20140910 13:05:48'25: UPDATE virtual_object SET ispublic= 'N',
+				isprivate= 'S' WHERE id=1
+20140910 13:05:48'45: UPDATE numeric_data SET idov= 1,
+				idseccion= 337,
+				idrecurso= NULL,
+				value= '2.000000000000000' WHERE id=948
+20140910 13:05:48'48: UPDATE numeric_data SET idov= 1,
+				idseccion= 339,
+				idrecurso= NULL,
+				value= '38.000000000000000' WHERE id=949
+20140910 13:05:48'149: UPDATE resources SET idov= 1,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'S',
+				name= '1.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=469
+20140910 13:05:48'152: UPDATE resources SET idov= 1,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'N',
+				name= 'web1.pdf',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=470
+20140910 13:05:48'153: INSERT INTO log_modificaciones(idusuario, fechaModificacion, tipo, idov) VALUES (1,'20140910130548','M','1' )
+20140910 13:06:02'548: UPDATE virtual_object SET ispublic= 'N',
+				isprivate= 'S' WHERE id=1
+20140910 13:06:02'564: UPDATE numeric_data SET idov= 1,
+				idseccion= 337,
+				idrecurso= NULL,
+				value= '2.000000000000000' WHERE id=948
+20140910 13:06:02'566: UPDATE numeric_data SET idov= 1,
+				idseccion= 339,
+				idrecurso= NULL,
+				value= '38.000000000000000' WHERE id=949
+20140910 13:06:02'674: UPDATE resources SET idov= 1,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'S',
+				name= '1.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=469
+20140910 13:06:02'678: UPDATE resources SET idov= 1,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'N',
+				name= 'web1.pdf',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=470
+20140910 13:06:02'679: INSERT INTO log_modificaciones(idusuario, fechaModificacion, tipo, idov) VALUES (1,'20140910130602','M','1' )
+20140910 13:08:21'471: UPDATE virtual_object SET ispublic= 'S',
+				isprivate= 'N' WHERE id=3
+20140910 13:08:21'489: UPDATE numeric_data SET idov= 3,
+				idseccion= 339,
+				idrecurso= NULL,
+				value= '13.000000000000000' WHERE id=955
+20140910 13:08:21'499: UPDATE numeric_data SET idov= 3,
+				idseccion= 349,
+				idrecurso= NULL,
+				value= '7.000000000000000' WHERE id=954
+20140910 13:08:21'625: UPDATE resources SET idov= 3,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'S',
+				name= '3.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=479
+20140910 13:08:21'629: UPDATE resources SET idov= 3,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= NULL,
+				name= 'culturajivaros.htm',
+				idov_refered= 1318,
+				idresource_refered= 4972,
+				type= 'F' WHERE id=480
+20140910 13:08:21'632: UPDATE resources SET idov= 3,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= NULL,
+				name= 'mapjivaro.jpg',
+				idov_refered= 1319,
+				idresource_refered= 4999,
+				type= 'F' WHERE id=481
+20140910 13:08:21'633: INSERT INTO log_modificaciones(idusuario, fechaModificacion, tipo, idov) VALUES (1,'20140910130821','M','3' )
+20140910 13:08:49'417: UPDATE virtual_object SET ispublic= 'S',
+				isprivate= 'N' WHERE id=3
+20140910 13:08:49'436: UPDATE numeric_data SET idov= 3,
+				idseccion= 339,
+				idrecurso= NULL,
+				value= '13.000000000000000' WHERE id=955
+20140910 13:08:49'443: UPDATE numeric_data SET idov= 3,
+				idseccion= 349,
+				idrecurso= NULL,
+				value= '7.000000000000000' WHERE id=954
+20140910 13:08:49'536: UPDATE resources SET idov= 3,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'S',
+				name= '3.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=479
+20140910 13:08:49'540: UPDATE resources SET idov= 3,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= NULL,
+				name= 'culturajivaros.htm',
+				idov_refered= 1318,
+				idresource_refered= 4972,
+				type= 'F' WHERE id=480
+20140910 13:08:49'543: UPDATE resources SET idov= 3,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= NULL,
+				name= 'mapjivaro.jpg',
+				idov_refered= 1319,
+				idresource_refered= 4999,
+				type= 'F' WHERE id=481
+20140910 13:08:49'544: INSERT INTO log_modificaciones(idusuario, fechaModificacion, tipo, idov) VALUES (1,'20140910130849','M','3' )
+20140910 13:10:14'453: UPDATE virtual_object SET ispublic= 'S',
+				isprivate= 'N' WHERE id=2278
+20140910 13:10:14'532: INSERT INTO date_data(idov, idseccion, idrecurso, value) VALUES (2278,395,NULL,'20081120' )
+20140910 13:10:14'623: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'hoyoangeles.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7609
+20140910 13:10:14'629: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'img_0533.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7610
+20140910 13:10:14'635: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'img_2508.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7611
+20140910 13:10:14'640: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'img_3602.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7612
+20140910 13:10:14'644: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'j10n2.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7613
+20140910 13:10:14'648: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'j7a.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7614
+20140910 13:10:14'652: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'j7pxn4.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7615
+20140910 13:10:14'656: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'j8desdej2.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7616
+20140910 13:10:14'660: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'j8u1h1.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7617
+20140910 13:10:14'664: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'j8u1k1pie09.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7618
+20140910 13:10:14'668: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'j8u2a3sello01.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7619
+20140910 13:10:14'672: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'j8u5c2.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7620
+20140910 13:10:14'676: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'situacionmanabi.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7621
+20140910 13:10:14'679: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'vistatestigo.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7622
+20140910 13:10:14'687: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'S',
+				name= 'edificio1-a.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7608
+20140910 13:10:14'692: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'N',
+				name= 'manabi.html',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7623
+20140910 13:10:14'698: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'N',
+				name= 'equipo2008.txt',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7624
+20140910 13:10:14'703: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'N',
+				name= 'organismos2008.txt',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7625
+20140910 13:10:14'703: INSERT INTO log_modificaciones(idusuario, fechaModificacion, tipo, idov) VALUES (1,'20140910131014','M','2278' )
+20140910 13:10:31'926: UPDATE virtual_object SET ispublic= 'S',
+				isprivate= 'N' WHERE id=2278
+20140910 13:10:31'986: INSERT INTO date_data(idov, idseccion, idrecurso, value) VALUES (2278,395,NULL,'20081120' )
+20140910 13:10:32'43: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'hoyoangeles.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7609
+20140910 13:10:32'47: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'img_0533.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7610
+20140910 13:10:32'51: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'img_2508.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7611
+20140910 13:10:32'54: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'img_3602.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7612
+20140910 13:10:32'58: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'j10n2.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7613
+20140910 13:10:32'63: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'j7a.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7614
+20140910 13:10:32'69: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'j7pxn4.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7615
+20140910 13:10:32'73: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'j8desdej2.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7616
+20140910 13:10:32'79: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'j8u1h1.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7617
+20140910 13:10:32'82: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'j8u1k1pie09.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7618
+20140910 13:10:32'86: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'j8u2a3sello01.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7619
+20140910 13:10:32'89: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'j8u5c2.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7620
+20140910 13:10:32'93: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'situacionmanabi.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7621
+20140910 13:10:32'97: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= 'N',
+				name= 'vistatestigo.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7622
+20140910 13:10:32'101: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'S',
+				name= 'edificio1-a.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7608
+20140910 13:10:32'104: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'N',
+				name= 'manabi.html',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7623
+20140910 13:10:32'108: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'N',
+				name= 'equipo2008.txt',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7624
+20140910 13:10:32'112: UPDATE resources SET idov= 2278,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'N',
+				name= 'organismos2008.txt',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=7625
+20140910 13:10:32'113: INSERT INTO log_modificaciones(idusuario, fechaModificacion, tipo, idov) VALUES (1,'20140910131031','M','2278' )
+20140910 13:11:15'518: UPDATE virtual_object SET ispublic= 'N',
+				isprivate= 'S' WHERE id=1
+20140910 13:11:15'537: UPDATE numeric_data SET idov= 1,
+				idseccion= 337,
+				idrecurso= NULL,
+				value= '2.000000000000000' WHERE id=948
+20140910 13:11:15'540: UPDATE numeric_data SET idov= 1,
+				idseccion= 339,
+				idrecurso= NULL,
+				value= '38.000000000000000' WHERE id=949
+20140910 13:11:15'645: UPDATE resources SET idov= 1,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'S',
+				name= '1.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=469
+20140910 13:11:15'649: UPDATE resources SET idov= 1,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'N',
+				name= 'web1.pdf',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=470
+20140910 13:11:15'649: INSERT INTO log_modificaciones(idusuario, fechaModificacion, tipo, idov) VALUES (1,'20140910131115','M','1' )
+20140910 13:11:34'189: UPDATE usuarios SET nombre= 'super1',
+				apellidos= 'super2',
+				correo= 'test@test.test',
+				login= 'superadmin',
+				password= 'superadmin',
+				rol= 'A',
+				ultimo_acceso= '20140910121150' WHERE id=1
+20140910 13:12:33'532: UPDATE usuarios SET nombre= 'super1',
+				apellidos= 'super2',
+				correo= 'test@test.test',
+				login= 'superadmin',
+				password= 'superadmin',
+				rol= 'A',
+				ultimo_acceso= '20140910131229' WHERE id=1
+20140910 13:15:35'398: INSERT INTO virtual_object(ispublic, isprivate) VALUES ('S','N' )
+20140910 13:15:35'400: INSERT INTO permisos(idusuario, idov, tipoPermiso) VALUES (11,2320,'E' )
+20140910 13:15:35'419: INSERT INTO text_data(idov, idseccion, idrecurso, value) VALUES (2320,111,NULL,'prueba septiembre 2014' )
+20140910 13:15:35'430: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,112,NULL,'Prueba' )
+20140910 13:15:35'435: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 13:15:35'438: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,338,NULL,NULL )
+20140910 13:15:35'440: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 13:15:35'442: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,340,NULL,NULL )
+20140910 13:15:35'445: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 13:15:35'448: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,342,NULL,NULL )
+20140910 13:15:35'449: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 13:15:35'451: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,344,NULL,NULL )
+20140910 13:15:35'453: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 13:15:35'455: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,346,NULL,NULL )
+20140910 13:15:35'457: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 13:15:35'459: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,348,NULL,NULL )
+20140910 13:15:35'461: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 13:15:35'464: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,350,NULL,NULL )
+20140910 13:15:35'466: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 13:15:35'468: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,352,NULL,NULL )
+20140910 13:15:35'469: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 13:15:35'471: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,354,NULL,NULL )
+20140910 13:15:35'473: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 13:15:35'475: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,356,NULL,NULL )
+20140910 13:15:35'477: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 13:15:35'479: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,358,NULL,NULL )
+20140910 13:15:35'480: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 13:15:35'482: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,360,NULL,NULL )
+20140910 13:15:35'484: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 13:15:35'486: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,362,NULL,NULL )
+20140910 13:15:35'488: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,363,NULL,NULL )
+20140910 13:15:35'490: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 13:15:35'492: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,367,NULL,NULL )
+20140910 13:15:35'494: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 13:15:35'496: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,369,NULL,NULL )
+20140910 13:15:35'499: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,371,NULL,NULL )
+20140910 13:15:35'503: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,372,NULL,NULL )
+20140910 13:15:35'507: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,374,NULL,NULL )
+20140910 13:15:35'510: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,373,NULL,NULL )
+20140910 13:15:35'514: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,375,NULL,NULL )
+20140910 13:15:35'517: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,376,NULL,NULL )
+20140910 13:15:35'519: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,377,NULL,NULL )
+20140910 13:15:35'523: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,378,NULL,NULL )
+20140910 13:15:35'527: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,300,NULL,NULL )
+20140910 13:15:35'529: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,301,NULL,NULL )
+20140910 13:15:35'532: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,302,NULL,NULL )
+20140910 13:15:35'534: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,303,NULL,NULL )
+20140910 13:15:35'536: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,304,NULL,NULL )
+20140910 13:15:35'538: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,305,NULL,NULL )
+20140910 13:15:35'540: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,306,NULL,NULL )
+20140910 13:15:35'542: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,307,NULL,NULL )
+20140910 13:15:35'544: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,308,NULL,NULL )
+20140910 13:15:35'546: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,309,NULL,NULL )
+20140910 13:15:35'548: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,310,NULL,NULL )
+20140910 13:15:35'551: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,311,NULL,NULL )
+20140910 13:15:35'553: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,312,NULL,NULL )
+20140910 13:15:35'555: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,313,NULL,NULL )
+20140910 13:15:35'557: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,314,NULL,NULL )
+20140910 13:15:35'559: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,315,NULL,NULL )
+20140910 13:15:35'561: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,316,NULL,NULL )
+20140910 13:15:35'563: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,317,NULL,NULL )
+20140910 13:15:35'565: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,318,NULL,NULL )
+20140910 13:15:35'567: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,319,NULL,NULL )
+20140910 13:15:35'570: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,320,NULL,NULL )
+20140910 13:15:35'572: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,321,NULL,NULL )
+20140910 13:15:35'574: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,322,NULL,NULL )
+20140910 13:15:35'576: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,323,NULL,NULL )
+20140910 13:15:35'578: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,324,NULL,NULL )
+20140910 13:15:35'581: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,325,NULL,NULL )
+20140910 13:15:35'583: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,326,NULL,NULL )
+20140910 13:15:35'585: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,327,NULL,NULL )
+20140910 13:15:35'587: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,328,NULL,NULL )
+20140910 13:15:35'589: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,329,NULL,NULL )
+20140910 13:15:35'591: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,330,NULL,NULL )
+20140910 13:15:35'593: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,331,NULL,NULL )
+20140910 13:15:35'596: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,332,NULL,NULL )
+20140910 13:15:35'598: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,333,NULL,NULL )
+20140910 13:15:35'600: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,334,NULL,NULL )
+20140910 13:15:35'602: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,335,NULL,NULL )
+20140910 13:15:35'604: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,386,NULL,NULL )
+20140910 13:15:35'606: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,630,NULL,NULL )
+20140910 13:15:35'608: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,631,NULL,NULL )
+20140910 13:15:35'611: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,632,NULL,NULL )
+20140910 13:15:35'613: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,387,NULL,NULL )
+20140910 13:15:35'615: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,388,NULL,NULL )
+20140910 13:15:35'617: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,389,NULL,NULL )
+20140910 13:15:35'619: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,390,NULL,NULL )
+20140910 13:15:35'621: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,391,NULL,NULL )
+20140910 13:15:35'623: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,392,NULL,NULL )
+20140910 13:15:35'625: INSERT INTO text_data(idov, idseccion, idrecurso, value) VALUES (2320,394,NULL,'AFV' )
+20140910 13:15:35'629: INSERT INTO date_data(idov, idseccion, idrecurso, value) VALUES (2320,395,NULL,'20140910' )
+20140910 13:15:35'632: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,396,NULL,'autor' )
+20140910 13:15:35'636: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,412,NULL,NULL )
+20140910 13:15:35'641: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,416,NULL,NULL )
+20140910 13:15:35'645: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,420,NULL,NULL )
+20140910 13:15:35'648: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,424,NULL,NULL )
+20140910 13:15:35'652: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,428,NULL,NULL )
+20140910 13:15:35'656: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,432,NULL,NULL )
+20140910 13:15:35'659: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,436,NULL,NULL )
+20140910 13:15:35'664: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,440,NULL,NULL )
+20140910 13:15:35'667: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,400,NULL,NULL )
+20140910 13:15:35'671: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,404,NULL,NULL )
+20140910 13:15:35'674: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,408,NULL,NULL )
+20140910 13:15:35'678: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,442,NULL,'Borrador' )
+20140910 13:15:35'680: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,443,NULL,NULL )
+20140910 13:15:35'682: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,475,NULL,NULL )
+20140910 13:15:35'684: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,476,NULL,NULL )
+20140910 13:15:35'686: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,477,NULL,NULL )
+20140910 13:15:35'688: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,478,NULL,NULL )
+20140910 13:15:35'690: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,479,NULL,NULL )
+20140910 13:15:35'693: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,480,NULL,NULL )
+20140910 13:15:35'695: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,481,NULL,NULL )
+20140910 13:15:35'697: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,482,NULL,NULL )
+20140910 13:15:35'699: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,483,NULL,NULL )
+20140910 13:15:35'701: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,484,NULL,NULL )
+20140910 13:15:35'703: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,485,NULL,NULL )
+20140910 13:15:35'705: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,525,NULL,NULL )
+20140910 13:15:35'707: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,526,NULL,NULL )
+20140910 13:15:35'710: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,520,NULL,NULL )
+20140910 13:15:35'712: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,521,NULL,NULL )
+20140910 13:15:35'715: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,522,NULL,NULL )
+20140910 13:15:35'717: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,523,NULL,NULL )
+20140910 13:15:35'719: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,524,NULL,NULL )
+20140910 13:15:35'721: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,536,NULL,NULL )
+20140910 13:15:35'723: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,537,NULL,NULL )
+20140910 13:15:35'725: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,534,NULL,NULL )
+20140910 13:15:35'727: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,535,NULL,NULL )
+20140910 13:15:35'729: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,557,NULL,NULL )
+20140910 13:15:35'731: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,538,NULL,NULL )
+20140910 13:15:35'733: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,539,NULL,NULL )
+20140910 13:15:35'735: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,540,NULL,NULL )
+20140910 13:15:35'738: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,541,NULL,NULL )
+20140910 13:15:35'740: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,547,NULL,NULL )
+20140910 13:15:35'744: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,548,NULL,NULL )
+20140910 13:15:35'746: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,543,NULL,NULL )
+20140910 13:15:35'748: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,544,NULL,NULL )
+20140910 13:15:35'751: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,545,NULL,NULL )
+20140910 13:15:35'753: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,546,NULL,NULL )
+20140910 13:15:35'755: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,549,NULL,NULL )
+20140910 13:15:35'757: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,550,NULL,NULL )
+20140910 13:15:35'759: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,551,NULL,NULL )
+20140910 13:15:35'762: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,552,NULL,NULL )
+20140910 13:15:35'764: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,553,NULL,NULL )
+20140910 13:15:35'766: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,381,NULL,NULL )
+20140910 13:15:35'768: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,385,NULL,NULL )
+20140910 13:15:35'770: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,383,NULL,NULL )
+20140910 13:15:35'772: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,382,NULL,NULL )
+20140910 13:15:35'774: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,384,NULL,NULL )
+20140910 13:15:35'776: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,446,NULL,NULL )
+20140910 13:15:35'779: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,447,NULL,NULL )
+20140910 13:15:35'781: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,448,NULL,NULL )
+20140910 13:15:35'783: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,449,NULL,NULL )
+20140910 13:15:35'785: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,450,NULL,NULL )
+20140910 13:15:35'787: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,451,NULL,NULL )
+20140910 13:15:35'789: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,462,NULL,NULL )
+20140910 13:15:35'792: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,463,NULL,NULL )
+20140910 13:15:35'794: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,464,NULL,NULL )
+20140910 13:15:35'797: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,465,NULL,NULL )
+20140910 13:15:35'799: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,466,NULL,NULL )
+20140910 13:15:35'801: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,589,NULL,NULL )
+20140910 13:15:35'803: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,590,NULL,NULL )
+20140910 13:15:35'805: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,591,NULL,NULL )
+20140910 13:15:35'807: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,592,NULL,NULL )
+20140910 13:15:35'809: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,593,NULL,NULL )
+20140910 13:15:35'811: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,587,NULL,NULL )
+20140910 13:15:35'814: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,588,NULL,NULL )
+20140910 13:15:35'816: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,380,NULL,NULL )
+20140910 13:15:35'818: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,633,NULL,NULL )
+20140910 13:15:35'820: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2320,634,NULL,NULL )
+20140910 13:15:35'821: INSERT INTO log_modificaciones(idusuario, fechaModificacion, tipo, idov) VALUES (11,'20140910131535','C','2320' )
+20140910 13:16:17'739: UPDATE virtual_object SET ispublic= 'S',
+				isprivate= 'N' WHERE id=2320
+20140910 13:16:17'832: INSERT INTO date_data(idov, idseccion, idrecurso, value) VALUES (2320,395,NULL,'20140910' )
+20140910 13:16:18'11: INSERT INTO resources(idov, ordinal, visible, iconoov, name, idov_refered, idresource_refered, type) VALUES (2320,NULL,NULL,NULL,'IMG_4968.JPG',2288,8150,'F' )
+20140910 13:16:18'26: INSERT INTO log_modificaciones(idusuario, fechaModificacion, tipo, idov) VALUES (11,'20140910131617','M','2320' )
+20140910 13:18:32'353: UPDATE virtual_object SET ispublic= 'S',
+				isprivate= 'N' WHERE id=2320
+20140910 13:18:32'422: INSERT INTO date_data(idov, idseccion, idrecurso, value) VALUES (2320,395,NULL,'20140910' )
+20140910 13:18:32'485: UPDATE resources SET idov= 2320,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= NULL,
+				name= 'IMG_4968.JPG',
+				idov_refered= 2288,
+				idresource_refered= 8150,
+				type= 'F' WHERE id=8172
+20140910 13:18:32'518: INSERT INTO resources(idov, ordinal, visible, iconoov, name, idov_refered, idresource_refered, type) VALUES (2320,NULL,NULL,NULL,'ElCanoCulbr.jpg',NULL,NULL,'P' )
+20140910 13:18:32'519: INSERT INTO log_modificaciones(idusuario, fechaModificacion, tipo, idov) VALUES (11,'20140910131832','M','2320' )
+20140910 13:18:59'171: UPDATE virtual_object SET ispublic= 'S',
+				isprivate= 'N' WHERE id=2320
+20140910 13:18:59'242: INSERT INTO date_data(idov, idseccion, idrecurso, value) VALUES (2320,395,NULL,'20140910' )
+20140910 13:18:59'306: UPDATE resources SET idov= 2320,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'S',
+				name= 'ElCanoCulbr.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=8173
+20140910 13:18:59'310: UPDATE resources SET idov= 2320,
+				ordinal= 2,
+				visible= 'S',
+				iconoov= 'N',
+				name= 'IMG_4968.JPG',
+				idov_refered= 2288,
+				idresource_refered= 8150,
+				type= 'F' WHERE id=8172
+20140910 13:18:59'310: INSERT INTO log_modificaciones(idusuario, fechaModificacion, tipo, idov) VALUES (11,'20140910131859','M','2320' )
+20140910 13:19:27'771: UPDATE virtual_object SET ispublic= 'S',
+				isprivate= 'N' WHERE id=2319
+20140910 13:19:27'791: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2319,112,NULL,'Prueba' )
+20140910 13:19:27'850: INSERT INTO date_data(idov, idseccion, idrecurso, value) VALUES (2319,395,NULL,'20140831' )
+20140910 13:19:27'924: UPDATE resources SET idov= 2319,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'S',
+				name= 'IMG_5100copia.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=8171
+20140910 13:19:27'925: INSERT INTO log_modificaciones(idusuario, fechaModificacion, tipo, idov) VALUES (11,'20140910131927','M','2319' )
+20140910 13:19:43'373: UPDATE usuarios SET nombre= 'admin1',
+				apellidos= 'admin2',
+				correo= 'test@test.test',
+				login= 'admin',
+				password= 'admin',
+				rol= 'B',
+				ultimo_acceso= '20140910131250' WHERE id=11
+20140910 13:20:28'678: UPDATE usuarios SET nombre= 'super1',
+				apellidos= 'super2',
+				correo= 'test@test.test',
+				login= 'superadmin',
+				password= 'superadmin',
+				rol= 'A',
+				ultimo_acceso= '20140910131953' WHERE id=1
+20140910 13:26:13'87: UPDATE usuarios SET nombre= 'super1',
+				apellidos= 'super2',
+				correo= 'test@test.test',
+				login= 'superadmin',
+				password= 'superadmin',
+				rol= 'A',
+				ultimo_acceso= '20140910132538' WHERE id=1
+20140910 14:12:02'992: UPDATE virtual_object SET ispublic= 'S',
+				isprivate= 'N' WHERE id=140
+20140910 14:12:03'29: UPDATE numeric_data SET idov= 140,
+				idseccion= 341,
+				idrecurso= NULL,
+				value= '4.000000000000000' WHERE id=1188
+20140910 14:12:03'39: UPDATE numeric_data SET idov= 140,
+				idseccion= 349,
+				idrecurso= NULL,
+				value= '12.000000000000000' WHERE id=1189
+20140910 14:12:03'182: UPDATE resources SET idov= 140,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'S',
+				name= '140.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=819
+20140910 14:12:03'185: UPDATE resources SET idov= 140,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= NULL,
+				name= 'culturatiahuanaco.htm',
+				idov_refered= NULL,
+				idresource_refered= 1318,
+				type= 'F' WHERE id=820
+20140910 14:12:03'189: UPDATE resources SET idov= 140,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= NULL,
+				name= 'maptiahuanaco.jpg',
+				idov_refered= NULL,
+				idresource_refered= 1319,
+				type= 'F' WHERE id=821
+20140910 14:12:03'190: INSERT INTO log_modificaciones(idusuario, fechaModificacion, tipo, idov) VALUES (1,'20140910141202','M','140' )
+20140910 14:14:15'405: INSERT INTO virtual_object(ispublic, isprivate) VALUES ('S','N' )
+20140910 14:14:15'424: INSERT INTO text_data(idov, idseccion, idrecurso, value) VALUES (2321,111,NULL,'nuevo objeto desde view' )
+20140910 14:14:15'428: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,112,NULL,'Prueba' )
+20140910 14:14:15'431: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 14:14:15'433: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,338,NULL,NULL )
+20140910 14:14:15'435: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 14:14:15'437: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,340,NULL,NULL )
+20140910 14:14:15'438: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 14:14:15'441: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,342,NULL,NULL )
+20140910 14:14:15'443: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 14:14:15'445: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,344,NULL,NULL )
+20140910 14:14:15'448: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 14:14:15'450: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,346,NULL,NULL )
+20140910 14:14:15'451: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 14:14:15'453: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,348,NULL,NULL )
+20140910 14:14:15'455: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 14:14:15'457: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,350,NULL,NULL )
+20140910 14:14:15'459: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 14:14:15'462: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,352,NULL,NULL )
+20140910 14:14:15'463: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 14:14:15'465: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,354,NULL,NULL )
+20140910 14:14:15'467: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 14:14:15'469: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,356,NULL,NULL )
+20140910 14:14:15'470: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 14:14:15'473: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,358,NULL,NULL )
+20140910 14:14:15'476: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 14:14:15'481: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,360,NULL,NULL )
+20140910 14:14:15'484: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 14:14:15'487: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,362,NULL,NULL )
+20140910 14:14:15'490: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,363,NULL,NULL )
+20140910 14:14:15'493: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 14:14:15'497: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,367,NULL,NULL )
+20140910 14:14:15'499: INSERT INTO numeric_data(idov, idseccion, idrecurso, value) VALUES (NULL,NULL,NULL,NULL )
+20140910 14:14:15'501: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,369,NULL,NULL )
+20140910 14:14:15'503: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,371,NULL,NULL )
+20140910 14:14:15'505: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,372,NULL,NULL )
+20140910 14:14:15'508: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,374,NULL,NULL )
+20140910 14:14:15'511: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,373,NULL,NULL )
+20140910 14:14:15'514: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,375,NULL,NULL )
+20140910 14:14:15'516: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,376,NULL,NULL )
+20140910 14:14:15'518: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,377,NULL,NULL )
+20140910 14:14:15'520: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,378,NULL,NULL )
+20140910 14:14:15'522: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,300,NULL,NULL )
+20140910 14:14:15'525: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,301,NULL,NULL )
+20140910 14:14:15'552: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,302,NULL,NULL )
+20140910 14:14:15'555: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,303,NULL,NULL )
+20140910 14:14:15'557: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,304,NULL,NULL )
+20140910 14:14:15'560: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,305,NULL,NULL )
+20140910 14:14:15'562: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,306,NULL,NULL )
+20140910 14:14:15'564: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,307,NULL,NULL )
+20140910 14:14:15'566: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,308,NULL,NULL )
+20140910 14:14:15'568: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,309,NULL,NULL )
+20140910 14:14:15'570: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,310,NULL,NULL )
+20140910 14:14:15'573: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,311,NULL,NULL )
+20140910 14:14:15'575: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,312,NULL,NULL )
+20140910 14:14:15'619: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,313,NULL,NULL )
+20140910 14:14:15'622: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,314,NULL,NULL )
+20140910 14:14:15'625: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,315,NULL,NULL )
+20140910 14:14:15'627: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,316,NULL,NULL )
+20140910 14:14:15'631: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,317,NULL,NULL )
+20140910 14:14:15'633: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,318,NULL,NULL )
+20140910 14:14:15'635: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,319,NULL,NULL )
+20140910 14:14:15'637: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,320,NULL,NULL )
+20140910 14:14:15'639: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,321,NULL,NULL )
+20140910 14:14:15'641: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,322,NULL,NULL )
+20140910 14:14:15'643: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,323,NULL,NULL )
+20140910 14:14:15'645: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,324,NULL,NULL )
+20140910 14:14:15'648: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,325,NULL,NULL )
+20140910 14:14:15'650: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,326,NULL,NULL )
+20140910 14:14:15'653: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,327,NULL,NULL )
+20140910 14:14:15'655: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,328,NULL,NULL )
+20140910 14:14:15'657: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,329,NULL,NULL )
+20140910 14:14:15'659: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,330,NULL,NULL )
+20140910 14:14:15'661: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,331,NULL,NULL )
+20140910 14:14:15'677: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,332,NULL,NULL )
+20140910 14:14:15'681: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,333,NULL,NULL )
+20140910 14:14:15'684: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,334,NULL,NULL )
+20140910 14:14:15'687: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,335,NULL,NULL )
+20140910 14:14:15'689: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,386,NULL,NULL )
+20140910 14:14:15'692: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,630,NULL,NULL )
+20140910 14:14:15'695: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,631,NULL,NULL )
+20140910 14:14:15'698: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,632,NULL,NULL )
+20140910 14:14:15'700: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,387,NULL,NULL )
+20140910 14:14:15'702: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,388,NULL,NULL )
+20140910 14:14:15'704: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,389,NULL,NULL )
+20140910 14:14:15'706: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,390,NULL,NULL )
+20140910 14:14:15'709: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,391,NULL,NULL )
+20140910 14:14:15'711: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,392,NULL,NULL )
+20140910 14:14:15'714: INSERT INTO text_data(idov, idseccion, idrecurso, value) VALUES (2321,394,NULL,'AFV' )
+20140910 14:14:15'717: INSERT INTO date_data(idov, idseccion, idrecurso, value) VALUES (2321,395,NULL,'20140910' )
+20140910 14:14:15'719: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,396,NULL,'autor' )
+20140910 14:14:15'723: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,412,NULL,NULL )
+20140910 14:14:15'728: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,416,NULL,NULL )
+20140910 14:14:15'733: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,420,NULL,NULL )
+20140910 14:14:15'737: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,424,NULL,NULL )
+20140910 14:14:15'741: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,428,NULL,NULL )
+20140910 14:14:15'746: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,432,NULL,NULL )
+20140910 14:14:15'750: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,436,NULL,NULL )
+20140910 14:14:15'753: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,440,NULL,NULL )
+20140910 14:14:15'757: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,400,NULL,NULL )
+20140910 14:14:15'760: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,404,NULL,NULL )
+20140910 14:14:15'765: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,408,NULL,NULL )
+20140910 14:14:15'767: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,442,NULL,NULL )
+20140910 14:14:15'769: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,443,NULL,NULL )
+20140910 14:14:15'772: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,475,NULL,NULL )
+20140910 14:14:15'774: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,476,NULL,NULL )
+20140910 14:14:15'776: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,477,NULL,NULL )
+20140910 14:14:15'779: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,478,NULL,NULL )
+20140910 14:14:15'781: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,479,NULL,NULL )
+20140910 14:14:15'783: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,480,NULL,NULL )
+20140910 14:14:15'785: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,481,NULL,NULL )
+20140910 14:14:15'787: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,482,NULL,NULL )
+20140910 14:14:15'789: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,483,NULL,NULL )
+20140910 14:14:15'792: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,484,NULL,NULL )
+20140910 14:14:15'795: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,485,NULL,NULL )
+20140910 14:14:15'797: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,525,NULL,NULL )
+20140910 14:14:15'799: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,526,NULL,NULL )
+20140910 14:14:15'801: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,520,NULL,NULL )
+20140910 14:14:15'804: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,521,NULL,NULL )
+20140910 14:14:15'806: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,522,NULL,NULL )
+20140910 14:14:15'808: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,523,NULL,NULL )
+20140910 14:14:15'811: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,524,NULL,NULL )
+20140910 14:14:15'813: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,536,NULL,NULL )
+20140910 14:14:15'816: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,537,NULL,NULL )
+20140910 14:14:15'818: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,534,NULL,NULL )
+20140910 14:14:15'820: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,535,NULL,NULL )
+20140910 14:14:15'822: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,557,NULL,NULL )
+20140910 14:14:15'824: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,538,NULL,NULL )
+20140910 14:14:15'827: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,539,NULL,NULL )
+20140910 14:14:15'830: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,540,NULL,NULL )
+20140910 14:14:15'832: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,541,NULL,NULL )
+20140910 14:14:15'835: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,547,NULL,NULL )
+20140910 14:14:15'838: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,548,NULL,NULL )
+20140910 14:14:15'841: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,543,NULL,NULL )
+20140910 14:14:15'843: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,544,NULL,NULL )
+20140910 14:14:15'845: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,545,NULL,NULL )
+20140910 14:14:15'847: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,546,NULL,NULL )
+20140910 14:14:15'850: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,549,NULL,NULL )
+20140910 14:14:15'852: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,550,NULL,NULL )
+20140910 14:14:15'854: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,551,NULL,NULL )
+20140910 14:14:15'856: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,552,NULL,NULL )
+20140910 14:14:15'858: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,553,NULL,NULL )
+20140910 14:14:15'861: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,381,NULL,NULL )
+20140910 14:14:15'864: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,385,NULL,NULL )
+20140910 14:14:15'866: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,383,NULL,NULL )
+20140910 14:14:15'868: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,382,NULL,NULL )
+20140910 14:14:15'870: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,384,NULL,NULL )
+20140910 14:14:15'872: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,446,NULL,NULL )
+20140910 14:14:15'875: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,447,NULL,NULL )
+20140910 14:14:15'877: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,448,NULL,NULL )
+20140910 14:14:15'880: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,449,NULL,NULL )
+20140910 14:14:15'882: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,450,NULL,NULL )
+20140910 14:14:15'885: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,451,NULL,NULL )
+20140910 14:14:15'887: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,462,NULL,NULL )
+20140910 14:14:15'889: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,463,NULL,NULL )
+20140910 14:14:15'891: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,464,NULL,NULL )
+20140910 14:14:15'894: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,465,NULL,NULL )
+20140910 14:14:15'896: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,466,NULL,NULL )
+20140910 14:14:15'899: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,589,NULL,NULL )
+20140910 14:14:15'901: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,590,NULL,NULL )
+20140910 14:14:15'903: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,591,NULL,NULL )
+20140910 14:14:15'905: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,592,NULL,NULL )
+20140910 14:14:15'907: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,593,NULL,NULL )
+20140910 14:14:15'910: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,587,NULL,NULL )
+20140910 14:14:15'912: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,588,NULL,NULL )
+20140910 14:14:15'914: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,380,NULL,NULL )
+20140910 14:14:15'916: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,633,NULL,NULL )
+20140910 14:14:15'919: INSERT INTO controlled_data(idov, idseccion, idrecurso, value) VALUES (2321,634,NULL,NULL )
+20140910 14:14:15'921: INSERT INTO resources(idov, ordinal, visible, iconoov, name, idov_refered, idresource_refered, type) VALUES (2321,NULL,NULL,NULL,'ElCanoAlfJul.jpg',NULL,NULL,'P' )
+20140910 14:14:15'922: INSERT INTO log_modificaciones(idusuario, fechaModificacion, tipo, idov) VALUES (1,'20140910141415','C','2321' )
+20140910 14:14:44'37: UPDATE virtual_object SET ispublic= 'S',
+				isprivate= 'N' WHERE id=2321
+20140910 14:14:44'120: INSERT INTO date_data(idov, idseccion, idrecurso, value) VALUES (2321,395,NULL,'20140910' )
+20140910 14:14:44'202: UPDATE resources SET idov= 2321,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'S',
+				name= 'ElCanoAlfJul.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=8174
+20140910 14:14:44'203: INSERT INTO log_modificaciones(idusuario, fechaModificacion, tipo, idov) VALUES (1,'20140910141444','M','2321' )
+20140910 14:17:12'342: UPDATE virtual_object SET ispublic= 'S',
+				isprivate= 'N' WHERE id=2321
+20140910 14:17:12'409: INSERT INTO date_data(idov, idseccion, idrecurso, value) VALUES (2321,395,NULL,'20140910' )
+20140910 14:17:12'475: UPDATE resources SET idov= 2321,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'S',
+				name= 'ElCanoAlfJul.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=8174
+20140910 14:17:12'476: INSERT INTO log_modificaciones(idusuario, fechaModificacion, tipo, idov) VALUES (1,'20140910141712','M','2321' )
+20140910 14:18:56'937: UPDATE virtual_object SET ispublic= 'S',
+				isprivate= 'N' WHERE id=2321
+20140910 14:18:57'7: INSERT INTO date_data(idov, idseccion, idrecurso, value) VALUES (2321,395,NULL,'20140910' )
+20140910 14:18:57'73: UPDATE resources SET idov= 2321,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'S',
+				name= 'ElCanoAlfJul.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=8174
+20140910 14:18:57'75: INSERT INTO resources(idov, ordinal, visible, iconoov, name, idov_refered, idresource_refered, type) VALUES (2321,NULL,NULL,NULL,'IMG_5100copia.jpg',2319,8171,'F' )
+20140910 14:18:57'86: INSERT INTO log_modificaciones(idusuario, fechaModificacion, tipo, idov) VALUES (1,'20140910141856','M','2321' )
+20140910 14:19:14'239: UPDATE virtual_object SET ispublic= 'S',
+				isprivate= 'N' WHERE id=2321
+20140910 14:19:14'304: INSERT INTO date_data(idov, idseccion, idrecurso, value) VALUES (2321,395,NULL,'20140910' )
+20140910 14:19:14'368: UPDATE resources SET idov= 2321,
+				ordinal= 2,
+				visible= 'S',
+				iconoov= NULL,
+				name= 'IMG_5100copia.jpg',
+				idov_refered= 2319,
+				idresource_refered= 8171,
+				type= 'F' WHERE id=8175
+20140910 14:19:14'372: UPDATE resources SET idov= 2321,
+				ordinal= 1,
+				visible= 'S',
+				iconoov= 'S',
+				name= 'ElCanoAlfJul.jpg',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=8174
+20140910 14:19:14'373: INSERT INTO log_modificaciones(idusuario, fechaModificacion, tipo, idov) VALUES (1,'20140910141914','M','2321' )
+20140910 14:34:02'597: UPDATE section_data SET idpadre= 2,
+				nombre= 'PRUEBA 10',
+				codigo= NULL,
+				tooltip= NULL,
+				visible= 'S',
+				orden= 27,
+				browseable= 'S',
+				tipo_valores= 'C',
+				extensible= 'S',
+				vocabulario= 1,
+				decimales= NULL WHERE id=633
+20140910 14:34:08'600: UPDATE section_data SET idpadre= 2,
+				nombre= 'PRUEBA 10',
+				codigo= NULL,
+				tooltip= NULL,
+				visible= 'S',
+				orden= 27,
+				browseable= 'S',
+				tipo_valores= 'C',
+				extensible= 'S',
+				vocabulario= 1,
+				decimales= NULL WHERE id=633
+20140910 14:34:45'59: UPDATE usuarios SET nombre= 'super1',
+				apellidos= 'super2',
+				correo= 'test@test.test',
+				login= 'superadmin',
+				password= 'superadmin',
+				rol= 'A',
+				ultimo_acceso= '20140910141029' WHERE id=1
+20150310 12:26:02'115: INSERT INTO section_data(idpadre, nombre, codigo, tooltip, visible, orden,  browseable, tipo_valores, extensible, vocabulario, decimales) VALUES (3,'fecha',NULL,NULL,'S',3,'S','F','S',0,NULL )
+20150310 12:26:26'833: UPDATE virtual_object SET ispublic= 'S',
+				isprivate= 'N' WHERE id=315
+20150310 12:26:26'856: UPDATE numeric_data SET idov= 315,
+				idseccion= 394,
+				idrecurso= NULL,
+				value= '25.600000000000000' WHERE id=1048
+20150310 12:26:26'858: INSERT INTO date_data(idov, idseccion, idrecurso, value) VALUES (315,395,NULL,'20140204' )
+20150310 12:26:26'867: INSERT INTO date_data(idov, idseccion, idrecurso, value) VALUES (315,399,640,'20150316' )
+20150310 12:26:26'868: UPDATE resources SET idov= 315,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= NULL,
+				name= 'http://localhost/Limpia/view/ls_ov_clasificacion.php?id=111&paginacion=10&idpadre=29',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'U' WHERE id=640
+20150310 12:26:26'872: INSERT INTO date_data(idov, idseccion, idrecurso, value) VALUES (315,399,639,'20150302' )
+20150310 12:26:26'872: UPDATE resources SET idov= 315,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= NULL,
+				name= 'Database1.accdb',
+				idov_refered= NULL,
+				idresource_refered= NULL,
+				type= 'P' WHERE id=639
+20150310 12:26:26'876: INSERT INTO date_data(idov, idseccion, idrecurso, value) VALUES (315,399,641,'20150310' )
+20150310 12:26:26'877: UPDATE resources SET idov= 315,
+				ordinal= 1,
+				visible= 'N',
+				iconoov= NULL,
+				name= NULL,
+				idov_refered= 315,
+				idresource_refered= NULL,
+				type= 'OV' WHERE id=641
+20150310 12:26:26'879: INSERT INTO log_modificaciones(idusuario, fechaModificacion, tipo, idov) VALUES (1,'20150310122626','M','315' )

@@ -1,0 +1,169 @@
+/* ENLACES */
+a:link { text-decoration: none; color: #133F82; }
+a:visited { text-decoration: none; color: #133F82; }
+a:hover { text-decoration: underline; color: #133F82; }
+
+a.lsenlace:link { text-decoration: none; color: #133F82; }
+a.lsenlace:visited { text-decoration: none; color: #133F82; }
+a.lsenlace:hover { text-decoration: underline; color: #133F82; }
+
+a.boactivo:link { text-decoration: none; color: #FF9D09; }
+a.boactivo:visited { text-decoration: none; color: #FF9D09; }
+a.boactivo:hover { text-decoration: underline; color: #FF9D09; }
+
+
+/* LS */
+.lstabla			{	border-left:1px solid #CCCCCC; border-right:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC;}
+.lscabecera			{	font-size: 11px; font-family:Verdana, Arial, Helvetica, sans-serif; color: #000000; line-height: 1.4em;
+						background-color: #F5F2C9; border-left:1px solid #FFFFFF;border-top:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;
+						padding:2px;}
+.lscabecerafiltros	{	font-size: 11px; font-family:Verdana, Arial, Helvetica, sans-serif; color: #000000; line-height: 1.4em;
+						background-color: #EBEBEB; border-bottom:1px solid #B4B4B4;
+						padding:1px;}
+.lsregistrosimpar	{	font-size: 11px; font-family:Verdana, Arial, Helvetica, sans-serif; color: #000000; line-height: 1.4em;
+						background-color: #FFFFFF; padding-left:4px;padding-right:4px; padding-top:1px; padding-bottom:1px;}
+.lsregistrospar		{	font-size: 11px; font-family:Verdana, Arial, Helvetica, sans-serif; color: #000000; line-height: 1.4em;
+						background-color: #EBEBEB; padding-left:4px;padding-right:4px; padding-top:1px; padding-bottom:1px;}
+.lsselectsfiltro    {	font-size: 10px; font-family: Verdana, Helvetica; color: #000000; border: 1px solid #7F9DB9;}
+.camposls			{	color: #000000;}
+.camposlsactivo		{	color: #009900;}
+
+/* LS */
+
+/* GENERICOS */
+BODY			{	font-size: 11px; font-family: Verdana, Helvetica, Arial, sans-serif; color: #000000; 
+					margin:0px; padding: 0px; border: 0px; line-height: 1.4em; background:#FFFFFF;}
+TD				{	font-size: 11px; font-family: Verdana, Helvetica, Arial, sans-serif; color: #000000; 
+					border: 0px; line-height: 1.4em;}
+P				{	font-size: 11px; font-family: Verdana, Helvetica, Arial, sans-serif; color: #000000; 
+					margin-top:0px;margin-bottom:0px; padding: 0px; border: 0px; line-height: 1.4em;}
+DIV				{	font-size: 11px; font-family: Verdana, Helvetica, Arial, sans-serif; color: #000000; 
+					border: 0px; line-height: 1.4em;}
+UL				{	font-size: 11px; font-family: Verdana, Helvetica, Arial, sans-serif; color: #000000; 
+					margin-top: 4px; margin-bottom: 4px; border: 0px; line-height: 1.4em; text-align:justify;}
+LI				{	font-size: 11px; font-family: Verdana, Helvetica, Arial, sans-serif; color: #000000; 
+					margin-top: 4px; margin-bottom: 4px; line-height: 1.4em;  text-align:justify;}
+OL				{	font-size: 11px; font-family: Verdana, Helvetica, Arial, sans-serif; color: #000000; 
+					margin-top: 4px; margin-bottom: 4px; border: 0px; line-height: 1.4em;  text-align:justify;}
+FONT			{	font-size: 11px;}
+
+INPUT			{	font-size: 11px; font-family: Verdana, Helvetica; color: #000000; }
+SELECT			{	font-size: 11px; font-family: Verdana, Helvetica; color: #000000; border: 1px solid #7F9DB9;}
+TEXTAREA		{	font-size: 11px; font-family: Verdana, Helvetica; color: #000000; border: 1px solid #7F9DB9;
+					width:524px; height:40px;}
+
+.gris			{	color: #999999;}
+.naranja		{	color: #FF9D09;}
+.verde			{	color: #69B500;}
+.azulverde		{	color: #587EA3;}
+.azul			{	color: #133F82;}
+.blanco			{	color: #FFFFFF;}
+.rojo			{	color: #CC3300;}
+
+/* GENERICOS */
+
+/* POPUPS */
+
+.popuptitcampo	{	font-size: 11px; background-color: #F2F2F2;border-bottom:1px solid #CCCCCC;border-right:1px solid #CCCCCC;
+					border-top:1px solid #FFFFFF;font-family:  Verdana, Arial, Helvetica, sans-serif; color: #1F5293; 
+					text-decoration: none; text-align: right; font-weight:bold; line-height: 1.4em;}
+.popupcampo		{	font-size: 11px; background-color: #FFFFFF;border-bottom:1px solid #CCCCCC;
+					font-family:  Verdana, Arial, Helvetica, sans-serif; color: #000000; text-decoration: none; line-height: 1.4em;}
+
+.inputcorto		{	font-size: 11px; font-family:  Verdana, Helvetica, Arial,  sans-serif; color: #000000; background-color: #FFFFFF;
+					width:73px; line-height: 1.2em; height:18px; border:1px solid #7F9DB9;}
+.inputmedio		{	font-size: 11px; font-family:  Verdana, Helvetica, Arial,  sans-serif; color: #000000; background-color: #FFFFFF;
+					width:324px; line-height: 1.2em; height:18px; border:1px solid #7F9DB9;}
+.inputlargo		{	font-size: 11px; font-family:  Verdana, Helvetica, Arial,  sans-serif; color: #000000; background-color: #FFFFFF;
+					width:524px; line-height: 1.2em; height:18px; border:1px solid #7F9DB9; }
+
+.textareamedio	{	font-size: 11px; font-family: Verdana, Helvetica; color: #000000; border: 1px solid #7F9DB9;
+					width:544px; height:80px;}
+
+.textarealargo	{	font-size: 11px; font-family: Verdana, Helvetica; color: #000000; border: 1px solid #7F9DB9;
+					width:544px; height:250px;}
+
+.textareaform	{	font-size: 11px; font-family: Verdana, Helvetica; color: #000000; border: 1px solid #7F9DB9; width:300px;}
+
+
+.selectmedio	{	font-size: 11px; font-family: Verdana, Helvetica; color: #000000; border: 1px solid #7F9DB9;
+					width:180px;}
+
+.selectlargo	{	font-size: 11px; font-family: Verdana, Helvetica; color: #000000; border: 1px solid #7F9DB9;
+					width:364px;}
+
+
+
+
+/* POPUPS */
+
+/* CABECERA PIE */
+.seccion		{	font-size: 11px; font-family:  Verdana, Arial, Helvetica, sans-serif; color: #ffffff; 
+					text-align: left; font-weight:bold; line-height: 1.4em;}
+.tooltip		{	font-size: 10px; font-family:  Verdana, Arial, Helvetica, sans-serif; color: #FFFFFF; 
+					text-decoration: none; text-align: left; line-height: 1.2em;}
+.menusuperior	{	font-size: 10px; font-family:  Verdana, Arial, Helvetica, sans-serif; color: #697B94; 
+					text-decoration: none; text-align: right; line-height: 1.2em;}
+.menuinferior	{	font-size: 10px; font-family:  Verdana, Arial, Helvetica, sans-serif; color: #FFFFFF; 
+					text-decoration: none; text-align: center; line-height: 1.2em; }
+/* CABECERA PIE */
+
+/* NAVEGACION*/
+.navegacion     {	font-size: 11px; font-family: Verdana, Helvetica, Arial, sans-serif; color: #000000; 
+					border: 0px; line-height: 1.4em;}
+/* NAVEGACION*/
+
+/* PORTADA */
+/* PORTADA */
+
+/* RECURSOS */
+.noticiatitulo	{	font-size: 12px; font-family:  Verdana, Arial, Helvetica, sans-serif; color: #003399; 
+					padding-bottom:6px; text-decoration: none; text-align: left; line-height: 1.4em;}
+.noticiaautor	{	font-size: 10px; font-family:  Verdana, Arial, Helvetica, sans-serif; color: #999999; 
+					padding-bottom:4px; text-decoration: none; text-align: left; line-height: 1.4em;}
+.noticiaresumen {	font-size: 11px; font-family:  Verdana, Arial, Helvetica, sans-serif; color: #6699CC; 
+					padding-bottom:10px; text-decoration: none; text-align: left; line-height: 1.4em;}
+
+.tituloeventosls {	font-size: 11px; font-family:  Verdana, Arial, Helvetica, sans-serif; color: #333649; 
+					text-decoration: none; text-align: left; line-height: 1.4em; font-weight:bold;}
+
+.autoreventosls	{	font-size: 11px; font-family:  Verdana, Arial, Helvetica, sans-serif; color: #5E6077; 
+					text-decoration: none; text-align: left; line-height: 1.4em;}
+
+/* RECURSOS */
+
+
+/* Editor Enriquecido */
+.titulo1 {	font-weight: bold;	font-size: 14px;line-height: 1.6em;}
+.titulo2 {	font-weight: bold;	font-size: 13px;line-height: 1.4em;}
+.titulo3 {	font-weight: bold;	font-size: 12px;line-height: 1.4em;}
+.destacado {font-weight: bold;font-size: 11px;line-height: 1.4em;}
+.normal {	font-weight: none;	font-size: 11px;line-height: 1.4em;	color: #000000;}
+
+
+/* Fichas  */
+
+.busqueda_bloque {	position: absolute; display: block; width:368px; overflow:auto; border:1px solid #D3D9DF; align:left; z-index: 100; background-color: #FFFFFF; padding:5px; left:10px}
+.busqueda_linea	{	width:350px; text-align:left;   background-color: #FFFFFF; z-index: -1; cursor:pointer; }
+.busqueda_linea:hover	{	width:350px; overflow: hidden;  text-align:left; background-color: #e1eafe; z-index: -1;}
+
+#input_entrada_buscador_vo{
+	width: 275px;	
+}
+
+#input_entrada_buscador_vo1{
+	width: 275px;	
+}
+
+#btn_entrada_buscador_vo1 .ui-button-text {
+	padding: 0px;	
+}
+
+#btn_entrada_buscador_vo .ui-button-text {
+	padding: 0px;	
+}
+
+TABLE.contenido_central {
+	background: #FFFFFF;
+
+}

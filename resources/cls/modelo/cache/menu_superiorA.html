@@ -1,0 +1,146 @@
+<script type="text/javascript" src="/odalimpia3/view/misc/scripts/ddsmoothmenu.js"></script>
+<link rel="stylesheet" type="text/css" href="/odalimpia3/view/css/menu_sup/ddsmoothmenu.css" />
+
+
+<script type="text/javascript">
+
+	ddsmoothmenu.init({
+		mainmenuid: "nav_sup", //menu DIV id
+		orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+		classname:'ddsmoothmenu', //class added to menu's outer DIV
+		contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+	})
+	
+	$(document).ready(function (){
+		$("#nav_sup").removeClass("oculto");
+	});
+
+</script>
+
+<div id="nav_sup" class="nav_sup oculto">
+	<ul>
+					 <!-- NIVEL 0 -->
+													<li>
+						<!-- alfredo 140907 <a href="http://localhost/odalimpia3/view/ls_ov_clasificacion.php?paginacion=10&idpadre=29"  > -->
+						<a href="http://localhost/odalimpia3/view/ls_ov_clasificacion.php?paginacion=10&idpadre=29"  >	
+							<span class="pestana_sup_centro">&nbsp;Acceso Clasificado&nbsp; </span>
+						</a>
+						<ul>
+					<li>
+										<a href="/odalimpia3/view/ls_ov_clasificacion.php?id=111&paginacion=10&idpadre=29">
+						<span>DESCRIPCIÓN</span>
+					</a>
+					<ul>
+											<li>
+						<a href="/odalimpia3/view/ls_ov_clasificacion.php?idpadre=29&id=111&criterio_111=DUPLICADO DEL   segundo objeto creado por el administrador SOLO de acceso restringido (lo hago público)&value=318">
+							<span>DUPLICADO DEL   segu...(1)</span>
+						</a>
+											</li>
+									<li>
+						<a href="/odalimpia3/view/ls_ov_clasificacion.php?idpadre=29&id=111&criterio_111=objeto creado por el administrador&value=316">
+							<span>objeto creado por el...(1)</span>
+						</a>
+											</li>
+									<li>
+						<a href="/odalimpia3/view/ls_ov_clasificacion.php?idpadre=29&id=111&criterio_111=primer objeto de prueba&value=315">
+							<span>primer objeto de pru...(1)</span>
+						</a>
+											</li>
+									<li>
+						<a href="/odalimpia3/view/ls_ov_clasificacion.php?idpadre=29&id=111&criterio_111=segundo objeto creado por el administrador SOLO de acceso restringido&value=317">
+							<span>segundo objeto cread...(1)</span>
+						</a>
+											</li>
+									</ul>
+				</li>
+							<li>
+										<a href="/odalimpia3/view/ls_ov_clasificacion.php?id=112&paginacion=10&idpadre=29">
+						<span>TIPO OBJETO</span>
+					</a>
+					<ul>
+											<li>
+						<a href="/odalimpia3/view/ls_ov_clasificacion.php?idpadre=29&id=112&criterio_112=de prueba&value=315">
+							<span>de prueba(4)</span>
+						</a>
+											</li>
+									</ul>
+				</li>
+							<li>
+										<a href="/odalimpia3/view/ls_ov_clasificacion.php?id=394&paginacion=10&idpadre=29">
+						<span>Numero</span>
+					</a>
+					<ul>
+											<li>
+						<a href="/odalimpia3/view/ls_ov_clasificacion.php?idpadre=29&id=394&criterio_394=25.600000000000000&value=315">
+							<span>25.6 (1)</span>
+						</a>
+											</li>
+									</ul>
+				</li>
+							<li>
+										<a href="/odalimpia3/view/ls_ov_clasificacion.php?id=395&paginacion=10&idpadre=29">
+						<span>Fecha</span>
+					</a>
+					<ul>
+											<li>
+						<a href="/odalimpia3/view/ls_ov_clasificacion.php?idpadre=29&id=395&criterio_395=20140204&value=315">
+							<span>04/02/2014(1)</span>
+						</a>
+											</li>
+									</ul>
+				</li>
+			</ul>
+
+
+
+
+
+
+<script>
+	function enciende_sup_class(clave){
+		var selectorLista = "#clasificacion_sup_" + clave;
+		//alert(selectorLista);
+		$(selectorLista).show();
+	}
+	function apaga_sup_class(clave){
+		var selectorLista = "#clasificacion_sup_" + clave;
+		$(selectorLista).hide();
+	}
+</script>											</li>
+												 <!-- NIVEL 0 -->
+													<li>
+						<!-- alfredo 140907 <a href="http://localhost/odalimpia3/view/cm_view_virtual_object.php?seleccion=1&idpadre=28"  > -->
+						<a href="http://localhost/odalimpia3/view/cm_view_virtual_object.php?seleccion=1&idpadre=28"  target="_blank"  >	
+							<span class="pestana_sup_centro">&nbsp;Acceso Secuencial&nbsp; </span>
+						</a>
+																	</li>
+												 <!-- NIVEL 0 -->
+													<li>
+						<!-- alfredo 140907 <a href="http://localhost/odalimpia3/bo/"  target="_blank"  > -->
+						<a href="http://localhost/odalimpia3/bo/"  target="_blank"  >	
+							<span class="pestana_sup_centro">&nbsp;MANTENIMIENTO&nbsp; </span>
+						</a>
+																	</li>
+									 <!-- FIN DE LINEA -->
+	</ul>
+</div>
+
+<script>
+	function enciende_sup(clave){
+		var selectorLista = "#nivel_sup_" + clave;
+		$(selectorLista).show();
+	}
+	function apaga_sup(clave){
+		var selectorLista = "#nivel_sup_" + clave;
+		$(selectorLista).hide();
+	}
+	function extiende_sup(clave){
+		var selectorLista = "#nivel_sup_" + clave;
+			if( $(selectorLista).css('display') == 'none' ){
+				$(selectorLista).show();
+			}
+			else if($(selectorLista).css('display') =='block'){
+				$(selectorLista).hide();
+			}
+	}
+</script>

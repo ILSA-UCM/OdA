@@ -1,0 +1,167 @@
+/* ENLACES */
+a:link { text-decoration: none; color: #133F82; }
+a:visited { text-decoration: none; color: #133F82; }
+a:hover { text-decoration: underline; color: #133F82; }
+
+a.nav:link { text-decoration: none; }
+a.nav:visited { text-decoration: none; }
+a.nav:hover { text-decoration: none; }
+
+/*Navegación de categorias nivel2 de catalogo*/
+/*a.nav2:link { text-decoration: none; color: #000000;}
+a.nav2:visited { text-decoration: none; color: #000000;}
+a.nav2:hover { text-decoration: none; color: #000000;}
+*/
+
+a.enlace:link { text-decoration: none; color: #133F82; }
+a.enlace:visited { text-decoration: none; color: #133F82; }
+a.enlace:hover { text-decoration: underline; color: #133F82; }
+
+.expanded {display: inline;}
+.collapsed {display: none;
+
+
+/* LS */
+
+
+/* LS */
+
+/* GENERICOS */
+TD				{	font-size: 10px; font-family: Verdana, Helvetica, Arial, sans-serif; color: #000000; 
+					border: 0px; line-height: 1.4em;}
+P				{	font-size: 10px; font-family: Verdana, Helvetica, Arial, sans-serif; color: #000000; 
+					margin-top:0px;margin-bottom:0px; padding: 0px; border: 0px; line-height: 1.4em;}
+DIV				{	font-size: 10px; font-family: Verdana, Helvetica, Arial, sans-serif; color: #000000; 
+					border: 0px; line-height: 1.4em;}
+UL				{	font-size: 10px; font-family: Verdana, Helvetica, Arial, sans-serif; color: #000000; 
+					margin-top: 4px; margin-bottom: 4px; border: 0px; line-height: 1.4em; text-align:justify;}
+LI				{	font-size: 10px; font-family: Verdana, Helvetica, Arial, sans-serif; color: #000000; 
+					margin-top: 4px; margin-bottom: 4px; line-height: 1.4em;  text-align:justify;}
+OL				{	font-size: 10px; font-family: Verdana, Helvetica, Arial, sans-serif; color: #000000; 
+					margin-top: 4px; margin-bottom: 4px; border: 0px; line-height: 1.4em;  text-align:justify;}
+FONT			{	font-size: 10px;}
+
+INPUT			{	font-size: 10px; font-family: Verdana, Helvetica; color: #000000; }
+SELECT			{	font-size: 10px; font-family: Verdana, Helvetica; color: #000000; border: 1px solid #7F9DB9;}
+TEXTAREA		{	font-size: 10px; font-family: Verdana, Helvetica; color: #000000; border: 1px solid #7F9DB9;}
+
+FORM			{display:inline;}
+/* GENERICOS */ 
+
+
+/* CABECERA PIE */
+.menusuperior	{	font-size: 10px; font-family:  Verdana, Arial, Helvetica, sans-serif; color: #697B94; 
+					text-decoration: none; text-align: right; line-height: 1.2em;}
+.menuinferior	{	font-size: 10px; font-family:  Verdana, Arial, Helvetica, sans-serif; color: #FFFFFF; 
+					text-decoration: none; text-align: center; line-height: 1.2em;}
+/* CABECERA PIE */
+
+/* NAVEGACION*/
+
+
+/*.menu			{height:24px; padding-left:14px;padding-right:14px;border-left:1px solid <?=$colorfondo3 ?>;cursor:pointer;font-weight:bold;color:<?=$colortextofondo1 ?>}
+.menuover		{height:24px; padding-left:14px;padding-right:14px;border-left:1px solid <?=$colorfondo3 ?> background-color:<?=$colorfondo3 ?> cursor:pointer;font-weight:bold;color:<?=$colortextofondo3 ?>}*/
+
+/* NAVEGACION*/
+
+/* PORTADA */
+/* PORTADA */
+
+/* RECURSOS */
+.paginatitulo	{	font-size: 12px;color:#}
+
+.noticiatitulo	{	font-size: 12px; font-family:  Verdana, Arial, Helvetica, sans-serif; color: #003399; 
+					padding-bottom:6px; text-decoration: none; text-align: left; line-height: 1.4em;}
+.noticiaautor	{	font-size: 10px; font-family:  Verdana, Arial, Helvetica, sans-serif; color: #999999; 
+					padding-bottom:4px; text-decoration: none; text-align: left; line-height: 1.4em;}
+.noticiaresumen {	font-size: 11px; font-family:  Verdana, Arial, Helvetica, sans-serif; color: #6699CC; 
+					padding-bottom:10px; text-decoration: none; text-align: left; line-height: 1.4em;}
+/* RECURSOS */
+
+
+/* Editor Enriquecido */
+.titulo1 {	font-weight: bold;	font-size: 14px;line-height: 1.6em;}
+.titulo2 {	font-weight: bold;	font-size: 13px;line-height: 1.4em;}
+.titulo3 {	font-weight: bold;	font-size: 12px;line-height: 1.4em;}
+.destacado {font-weight: bold;font-size: 11px;line-height: 1.4em;}
+.normal {	font-weight: none;	font-size: 11px;line-height: 1.4em;	color: #000000;}
+
+/* Universo MIDI */
+
+/*.bloquemenu		{	height:24px; background-color:#fe7701; padding-left:4px;padding-right:14px;font-weight:bold;color:#ffffff;}*/
+/*.menuweb		{	font-size:10px; height:24px; background-color:#e0e0e0; padding:4px;border-bottom:1px solid #bebebf;border-top:1px solid #ffffff;
+					cursor:pointer;font-weight:normal;color:#444444;}
+.menuwebover	{	font-size:10px; height:24px; background-color:#e6b902; padding:4px;border-bottom:1px solid #bebebf;border-top:1px solid #ffffff;
+					cursor:pointer;font-weight:normal;color:#444444;}
+.submenuweb		{	font-size:10px; height:24px; background-color:#ededed; padding:4px;padding-left:24px;border-bottom:1px solid #bebebf;
+					border-top:1px solid #ffffff;cursor:pointer;font-weight:normal;color:#444444;}*/
+/*.submenuwebover		{	font-size:10px; height:24px; background-color:#e6b902; padding:4px;padding-left:24px;border-bottom:1px solid #bebebf;
+					border-top:1px solid #ffffff;cursor:pointer;font-weight:normal;color:#444444;}*/
+TABLE.principal		{padding:0px;margin:0px; border:1px solid #000000;width:782px;} /*colorborde1??*/
+TABLE.generica		{width:100%; padding:0px; border:0px;}
+TABLE.genericanoancho {padding:0px; border:0px;}
+
+.vermas		{	font-size:10px;}
+
+/*
+.ofertatit			{	font-size:11px; line-height: 1.4em;color:#000000;}
+.ofertadesc			{	font-size:10px; line-height: 1.2em;color:#666666;}
+.ofertapvp			{	font-size:10px; line-height: 1.2em;color:#000000;}
+.ofertapvoferta		{	font-size:10px; line-height: 1.2em;color:#990000;}*/
+
+.paginaactiva		{	font-size:11px; color:#fe9601;border-bottom:1px solid #feba01;padding-bottom:4px;} /* color 3 (color + borde) */
+.paginacion			{	font-size:10px; color:#9f9f9f;border-bottom:1px solid #feba01;padding-bottom:4px;} /* color 3 (borde) */
+
+.titficha			{	font-size:14px; line-height: 1.4em;color:#fe7701;padding-bottom:10px;font-weight:bold;}
+.descortaficha		{	font-size:11px; line-height: 1.4em;color:#666666;}
+.pvpficha			{	font-size:11px; line-height: 1.4em;color:#666666;}
+.pvofertaficha		{	font-size:11px; line-height: 1.4em;color:#990000;}
+
+.bloquelogin	{		height:20px; background-color:#f4f4f4; padding-left:4px;padding-right:4px;padding-top:4px;
+						color:#757575;font-size:10px; }
+.bloquemenuder		{	height:20px; background-color:#feba01; padding-left:4px;padding-right:4px;font-weight:bold;color:#ffffff;
+						text-align:center;font-size:10px; border-bottom:1px solid #b4afac;}
+
+
+a.enlacearticulo:link { text-decoration: none; color: #000000;font-weight:bold; }
+a.enlacearticulo:visited {text-decoration: none;color: #000000;font-weight:bold; }
+a.enlacearticulo:hover { text-decoration: underline; color: #fe7701;font-weight:bold; }/* color 1 */
+
+
+.popuptitcampo {font-size: 11px; background-color: #F2F2F2;border-bottom:1px solid #CCCCCC;border-right:1px solid #CCCCCC;border-top:1px solid #FFFFFF;
+				font-family:  Verdana, Arial, Helvetica, sans-serif; color: #3A5778; text-decoration: none; text-align: right; 
+				font-weight:bold; line-height: 1.4em; }
+.popuptitcampoerr {font-size: 11px; background-color: #F2F2F2;border-bottom:1px solid #CCCCCC;border-right:1px solid #CCCCCC;border-top:1px solid #FFFFFF;
+				font-family:  Verdana, Arial, Helvetica, sans-serif; color: #FF3333; text-decoration: none; text-align: right; 
+				font-weight:bold; line-height: 1.4em; }
+.popupcampo {font-size: 11px; background-color: #FFFFFF;border-bottom:1px solid #CCCCCC;
+				font-family:  Verdana, Arial, Helvetica, sans-serif; color: #000000; text-decoration: none; 
+				line-height: 1.4em;}
+.bloquemenuder		{	height:20px; background-color:#feba01; padding-left:4px;padding-right:4px;font-weight:bold;color:#ffffff;
+						text-align:center;font-size:10px; border-bottom:1px solid #b4afac;}
+
+.contenidomenured	{	height:20px; background-color:#f4f4f4; padding:4px;color:#757575;font-size:10px; }
+.bloquelogin	{		height:20px; background-color:#f4f4f4; padding-left:4px;padding-right:4px;padding-top:4px;
+						color:#757575;font-size:10px; }
+
+
+
+a.enlacepag:link { text-decoration: none; color: #9f9f9f;}
+a.enlacepag:visited {text-decoration: none;color: #9f9f9f;}
+a.enlacepag:hover { text-decoration: underline; color: #fe9601;}/* color 2 */
+
+/*.epigrafeform {font-size: 11px; font-family:  Verdana, Arial, Helvetica, sans-serif; color: #000000;}
+.formvalor {font-size: 11px; font-family:  Verdana, Arial, Helvetica, sans-serif; color: #000000;}*/
+.explicacioncompra {font-size: 10px; font-family:  Verdana, Arial, Helvetica, sans-serif; color: #666666; text-align:center}
+
+/* Noticias */
+/*
+.noticiatit			{	font-size:11px; line-height: 1.4em;color:#000000;}
+.noticiadesc			{	font-size:10px; line-height: 1.2em;color:#666666;}
+
+
+a.enlacenoticia:link { text-decoration: none; color: #444444;font-weight:bold; }
+a.enlacenoticia:visited {text-decoration: none;color: #444444;font-weight:bold; }
+a.enlacenoticia:hover { text-decoration: underline; color: #fe7701;font-weight:bold; }*/
+
+
