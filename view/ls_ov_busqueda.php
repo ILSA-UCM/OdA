@@ -26,6 +26,11 @@ $orden = $dict["orden"];
 $orden_tipo = $dict["orden_tipo"];
 //var_dump($orden_tipo);
 
+//Añadido JOAQUIN GAYOSO 27062016
+if (!(isset($_GET["pag_inicial"])))
+	$dict["pag_inicial"]=-1;
+//Añadido JOAQUIN GAYOSO 27062016
+
 //var_dump($dict);
 if ($npag=="") { 
 	$npag=1;
