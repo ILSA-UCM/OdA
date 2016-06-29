@@ -10,7 +10,7 @@ Para el funcionamiento de la aplicacion <i>OdA</i> es **requerido**:
 > - PHP
 > - MySQL
 
-**Recomendamos descargarse el paquete <i>XAMPP[^xampp]</i> que contine todo lo necesario para poder ejecutar la aplicacion <i>OdA</i> tanto para <i>MAC</i>, <i>LINUX</i> o <i>WINDOWS</i>**  
+**Recomendamos descargarse el paquete <i>[XAMPP]</i> que contine todo lo necesario para poder ejecutar la aplicacion <i>OdA</i> tanto para <i>MAC</i>, <i>LINUX</i> o <i>WINDOWS</i>**  
 
 Las intrucciones especificas para cada una de las plataformas puede descargarse de la carpeta manuales de este mismo repositorio.
 
@@ -18,6 +18,6 @@ Un Saludo.
 
 <i>OdA Group.</i>
 
-[^xampp]:  https://www.apachefriends.org/
+[XAMPP]:  https://www.apachefriends.org/
 
 
