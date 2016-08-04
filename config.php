@@ -28,6 +28,10 @@ define('TZN_DB_USER','USERNAME');       // Nombre del usuario de la base de dato
 define('TZN_DB_PASS','PASSS');           // Contraseña del usuario de la base de datos
 define('TZN_DB_BASE','DBNAME');  	    // Nombre de la base de datos 	
 define('TZN_DB_CLASS','tzn_mysql.php');
+
+
+//Joaquin 160504 Puesto el limite del PHP a infinito, sino hay busqueda que se cuelga
+set_time_limit(0);
 ?>
 <?php 
 /// ** Nombre de la carpeta de la aplicación  ** //
