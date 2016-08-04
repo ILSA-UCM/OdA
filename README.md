@@ -1,4 +1,4 @@
-Repositior Virtual de Objetos Digitales (OdA)
+Repositorio Virtual de Objetos Digitales (OdA)
 ===================
 
 <i>OdA</i> es un repositorio de Objetos Destinado a la creación dinámica de repositorios de objetos digitales heterogéneos.
