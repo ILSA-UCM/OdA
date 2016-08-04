@@ -31,6 +31,15 @@ if ($npag=="") {
 	$npag=1;
 }
  
+  // Joaquin 160804 Sobre escribe la busqueda cacheada con una nueva con los valor que necesita (mete de mas chapuceado pero no le importa al sistema)
+foreach ($dict as $clave => $valor)
+{
+	$arrayCampo=explode( '_', $clave );
+	$campolimpio=$arrayCampo[count($arrayCampo)-1];
+	$_SESSION["valores_buscados"][$campolimpio]=$valor;
+	$_SESSION["lsvirtual_object_busqueda"][$clave]=$valor;
+}
+  // Joaquin 160804 
 
 
 if($dict["pag_inicial"]=="-1"){  // alfredo 140831 
