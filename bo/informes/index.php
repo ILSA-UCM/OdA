@@ -63,7 +63,7 @@ if ($status['http_code']=='403'||$status['http_code']=='500'||$status['http_code
 		{
 		$IsLoadCollection=false;
 		if ($Admin)
-			echo "<input type=\"button\" id=\"importB\" name=Import1 onclick=\"document.location.href= 'load.php?delete=false';\" value=\"Cargar coleccion al sistema de actualizacion/exportacion\">";
+			echo "<input type=\"button\" id=\"importB\" name=Import1 onclick=\"document.location.href= 'load.php?delete=false';\" value=\"Importar colección a Clavy\">";
 		}
 		else{
 			if ($status['http_code']=='200')
@@ -73,7 +73,7 @@ if ($status['http_code']=='403'||$status['http_code']=='500'||$status['http_code
 			
 			$IsLoadCollection=true;
 			if ($Admin)
-				echo "<input type=\"button\" id=\"importB\" name=Import1 onclick=\"document.location.href= 'load.php?delete=true';\" value=\"Cargar de nuevo la coleccion al sistema de actualizacion/exportacion\">";
+				echo "<input type=\"button\" id=\"importB\" name=Import1 onclick=\"document.location.href= 'load.php?delete=true';\" value=\"Volver a importar colección a Clavy\">";
 			}
 		}
 	
@@ -93,7 +93,7 @@ $disponible=disabled;
 
 echo "<p>Exportacion en HTML</p>";
 
-echo "<input type=\"button\" name=export1 id=\"exportAll\" onclick=\"document.location.href= 'exportH1.php';\" value=\"Exportar Informe de Objetos Digitales en HTML\"".$disponible.">";
+echo "<input type=\"button\" name=export1 id=\"exportAll\" onclick=\"document.location.href= 'exportHP.php';\" value=\"Generar informes HTML\"".$disponible.">";
 
 echo "<br>";
 echo "<br>";

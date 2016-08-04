@@ -146,7 +146,7 @@ $caminoActivo = $visit->util->obtenerCaminoCategoria($dictFilasNav, "", $idpadre
 				//Reparado JOAQUIN GAYOSO 28/06/2016
 				
 				}?> > 
-					<?=$item->nombre?> 
+				<?=$item->nombre?> 
 				</a>
 				<?
 				if($item->tipo_contenido =="C" && $hayNavegables){?>
@@ -166,14 +166,7 @@ $caminoActivo = $visit->util->obtenerCaminoCategoria($dictFilasNav, "", $idpadre
 					<div class="imagen_nav_izq_<?=$imagenmostrar?> extiendehijosnav_<?=$item->id?>" id="imagen_<?=$item->id?>" onclick="extiende(<?=$item->id?>);"  ></div>
 				<? }?>
 				<!-- alfredo 140907 <a href="<?=$enlace;?>" class="enlacenav_<?=$item->id?>" <? if($item->tipo_contenido =="M" || $item->tipo_contenido =="U" ){?> target="blank" <? }?> > -->
-				<a href="<?=$enlace;?>" class="enlacenav_<?=$item->id?>" <? if($item->tipo_contenido =="M" || $item->tipo_contenido =="U" || $item->tipo_contenido =="A" ){
-				
-				//Reparado JOAQUIN GAYOSO 28/06/2016 ahora si tiene en cuenta el concepto ventana externa
-				if ($item->ventanaexterna == "S")
-					echo "target=\"_blank\"" ; 
-				//Reparado JOAQUIN GAYOSO 28/06/2016
-
-				}?> > 	
+				<a href="<?=$enlace;?>" class="enlacenav_<?=$item->id?>" <? if($item->tipo_contenido =="M" || $item->tipo_contenido =="U" || $item->tipo_contenido =="A" ){?> target="_blank" <? }?> > 	
 					<?=$item->nombre?> 
 				</a>
 				<? if($item->tipo_contenido =="C" && $hayNavegables){?>
@@ -195,14 +188,12 @@ $caminoActivo = $visit->util->obtenerCaminoCategoria($dictFilasNav, "", $idpadre
 				<?}?>
 				<!-- alfredo 140907  <a href="<?=$enlace;?>" class="enlacenav_<?=$item->id?>" <? if($item->tipo_contenido =="M" || $item->tipo_contenido =="U" ){?> target="blank" <? }?> > -->
 				<a href="<?=$enlace;?>" class="enlacenav_<?=$item->id?>" <? if($item->tipo_contenido =="M" || $item->tipo_contenido =="U" || $item->tipo_contenido =="A" ){
-
 				//Reparado JOAQUIN GAYOSO 28/06/2016 ahora si tiene en cuenta el concepto ventana externa
 				if ($item->ventanaexterna == "S")
 					echo "target=\"_blank\"" ; 
 				//Reparado JOAQUIN GAYOSO 28/06/2016
-
 				}?> > 	
-					<?=$item->nombre?> 
+				<?=$item->nombre?> 
 				</a>
 				<? if($item->tipo_contenido =="C" && $hayNavegables){?>
 					<ul class="nav_izq_clasificacion_<?=$muestraCatalogo?> nav_izq_clasificacion_<?=$listaVisible?> hijosnav_<?=$item->id?>" id="clasificacion_principal_izq_<?=$item->id?>">

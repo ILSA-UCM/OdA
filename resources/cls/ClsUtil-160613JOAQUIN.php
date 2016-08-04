@@ -821,10 +821,6 @@ function getScriptName() {
 
 function concatenaUrl($url, $resto) {
 	$pos = strpos($url,"?");
-	/////A–adido Joaquin Gayoso 13/06/2016
-	$url= strip_tags($url);
-	//Fin A–adido Joaquin Gayoso XSS 
-	
 	if ($pos===false) {
 		$res = $url."?".$resto;
 	} else {
@@ -1099,10 +1095,6 @@ function getRequest2superGlobal() {
 		$nombre = $script;
 		if ($nombre=="") $nombre = $SCRIPT_NAME ;
 
-		/////A–adido Joaquin Gayoso 13/06/2016
-	$query= strip_tags($query);
-	//Fin A–adido Joaquin Gayoso XSS 
-	
 		if ($query!="") $query="?".$query;
 		return $nombre.$query;
 

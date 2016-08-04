@@ -26,11 +26,6 @@ $orden = $dict["orden"];
 $orden_tipo = $dict["orden_tipo"];
 //var_dump($orden_tipo);
 
-//Añadido JOAQUIN GAYOSO 27062016
-if (!(isset($_GET["pag_inicial"])))
-	$dict["pag_inicial"]=-1;
-//Añadido JOAQUIN GAYOSO 27062016
-
 //var_dump($dict);
 if ($npag=="") { 
 	$npag=1;
@@ -65,7 +60,7 @@ if($dict["pag_inicial"]=="-1"){ //alfredo 140831
 			
 		}
 		
-// echo "  super global=";var_dump($_SESSION['lsvirtual_object_busqueda']["paginacion"]);
+//echo "  super global=";var_dump($_SESSION['lsvirtual_object_busqueda']["paginacion"]);
 
 if($dict["pag_inicial"]=="-1"){ 				//alfredo  140901
 					$visit->options->paginacion=20;
@@ -137,6 +132,10 @@ if(!$visit->util->esSuperAdmin()){
 				$filas_todas = $visit->dbBuilder->getTablaBusquedaOVsLimit($virtualObject, $inicio - 1 , $limiteBD, $dict);
 				//$filas_todas = $visit->dbBuilder->getTablaBusquedaOVsCount($virtualObject,$dict);
 				$cuenta=0;
+				
+				//alfredo 150213
+				$_SESSION["resultado_busqueda"]="";
+				
 				for ($j=0;$j<count($filas_todas);$j++) { 	
 				//CONTROL USUARIOS REGISTRADOS
 				$registrado=(($visit->util->esUserRegistrado()&&("N"==$filas_todas[$j]->isprivate)));
@@ -144,6 +143,9 @@ if(!$visit->util->esSuperAdmin()){
 				if( ("S"==$filas_todas[$j]->ispublic)||$registrado||$visit->util->esSuperAdmin()  ){
 					$accesible = fichaAccesible($filas_todas[$j])>0;
 					if(accesible) $cuenta++;
+					//alfredo 150213
+					if(accesible) $_SESSION["resultado_busqueda"][$j]=$filas_todas[$j]->id;
+					
 					}
 				}
 				//echo"------CUENTA=";var_dump($cuenta);
@@ -160,8 +162,8 @@ if ($count==0) {
 	$filas = $visit->dbBuilder->getTablaBusquedaOVsLimit($virtualObject, $inicio - 1 ,$visit->options->paginacion,$dict);
 	
 	
-	
-	
+		//var_dump($_SESSION["resultado_busqueda"]);
+		//var_dump($filas_todas);	
 		//var_dump($filas); 
 		//var_dump("ENV*** "); var_dump($_ENV["seccion_id"]); //alfredo 140711
 		//var_dump("    IDS CONTROL -->");var_dump($_SESSION["idsControlados"]); 
@@ -234,7 +236,7 @@ if ($count==0) {
 		
 	</table>
 	
-	
+
 <? // alfredo 140923    if ($filas!="" && $count > 0) { ?>
 
 <? if ($filas!="collection" && $count > 0) { ?>

@@ -61,7 +61,7 @@ $documentos=$_REQUEST['document'];
 if (empty($documentos))
 	{
 		echo '<meta http-equiv="Refresh" content="5;url=exportH1.php">';
-		echo 'Lista de Documentos vacia <i>(Seras redirigido automaticamente a la pagina anterior)</i><br>';
+		echo 'Lista de Objetos Digitales vacia <font style="color:#FF0000;"><i>(Seras redirigido automaticamente a la pagina anterior)</i> </font><br>';
 	}
 else
 {
@@ -113,7 +113,7 @@ if ($curl_response === false) {
 {
 	echo $curl_response;
 	echo "<br>";
-	echo "<input type=\"button\" name=volver onclick=\"document.location.href= 'index.php';\" value=\"Volver al menu de Import/Export\">";
+	echo "<input type=\"button\" name=volver onclick=\"document.location.href= 'index.php';\" value=\"Volver al menu de Generacion De Informes\">";
 }
 ?>
 

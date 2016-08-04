@@ -84,8 +84,46 @@ echo "<form id=\"formdata\" name=\"formdata\" action=\"exportH2.php\" method=\"P
 echo "<p><b>Objeto Digital </b> <font style=\"color:#FF0000;\"><i>(Aviso: No se permite una selecciona vacia)</i> </font></p>";
 $link=Conectarse(); 
    
- 
 
+$Selected=$_REQUEST["select"];
+
+if ($Selected=="Selected")
+	{
+		$ValorsDocumentos=$_SESSION["resultado_busqueda"];
+		$ValorsDocumentosS=implode(",",$ValorsDocumentos);
+/*
+		var_dump($ValorsDocumentos);
+		var_dump($ValorsDocumentosS);
+		echo "SELECT A.id, B.value FROM virtual_object AS A, text_data AS B WHERE A.id=B.idov AND B.idseccion=111 AND A.id IN (".$ValorsDocumentosS.") ORDER BY A.id";
+	*/	
+		if ($Admin)
+   $result=mysql_query("SELECT A.id, B.value FROM virtual_object AS A, text_data AS B WHERE A.id=B.idov AND B.idseccion=111 AND A.id IN (".$ValorsDocumentosS.") ORDER BY A.id",$link); 
+else if ($User)
+	$result=mysql_query("SELECT A.id, B.value FROM virtual_object AS A, text_data AS B WHERE A.id=B.idov AND B.idseccion=111 AND A.ispublic='S' AND A.id IN (".$ValorsDocumentosS.") ORDER BY A.id",$link); 
+else
+	{
+	$result2=mysql_query("SELECT idov FROM permisos WHERE idusuario=".$id,$link); 
+	$finalStruc="";
+   $coma=false;
+   while($row = mysql_fetch_array($result2)) {
+	   $ValueIdov=$row["idov"];
+		if ($coma)
+			$finalStruc=$finalStruc.',';
+		else $coma=true;			
+		
+		$finalStruc=$finalStruc.$ValueIdov;
+   
+   }
+   
+   if (!empty($finalStruc))
+	$result=mysql_query("SELECT A.id, B.value FROM virtual_object AS A, text_data AS B WHERE A.id=B.idov AND B.idseccion=111 AND (A.id IN (".$finalStruc.") OR A.ispublic='S') AND A.id IN (".$ValorsDocumentosS.") ORDER BY A.id",$link); 
+	else
+		$result=mysql_query("SELECT A.id, B.value FROM virtual_object AS A, text_data AS B WHERE A.id=B.idov AND B.idseccion=111 AND A.ispublic='S' AND A.id IN (".$ValorsDocumentosS.") ORDER BY A.id",$link); 
+		
+}
+	}
+else
+{
 if ($Admin)
    $result=mysql_query("SELECT A.id, B.value FROM virtual_object AS A, text_data AS B WHERE A.id=B.idov AND B.idseccion=111 ORDER BY A.id",$link); 
 else if ($User)
@@ -111,7 +149,7 @@ else
 		$result=mysql_query("SELECT A.id, B.value FROM virtual_object AS A, text_data AS B WHERE A.id=B.idov AND B.idseccion=111 AND A.ispublic='S' ORDER BY A.id",$link); 
 		
 }
- 
+}
 
 echo '<button type="button" onClick="checkAll(\'document[]\', true);" >Seleccionar todo</button>';
 echo '&nbsp;&nbsp;';
@@ -143,7 +181,7 @@ echo '<br>';
  mysql_close($link); 
  
 
-echo "<input type=\"button\" onclick=\"preUpload();\" id=\"submitButton\" value=\"Exportar a HTML\" name=\"Exportar a HTML\" >";
+echo "<input type=\"button\" onclick=\"preUpload();\" id=\"submitButton\" value=\"Generar informe HTML\" name=\"Exportar a HTML\" >";
 echo "</form>";
 
 

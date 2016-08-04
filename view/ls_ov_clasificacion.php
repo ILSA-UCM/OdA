@@ -372,7 +372,7 @@ if($visit->options->usuario->esRolSuperadmin()){
 						<div class="clasificacion_datos">
 							<div>	<!-- NOMBRE -->
 								<?	$nombre = $visit->dbBuilder->obtenerAtributoValorTextFromSeccionOV(111,$item->id);
-									$nombre = strip_tags($nombre->value);
+									$nombre = $nombre->value;
 								?>
 								<? 	$seccion=$visit->dbBuilder->getSectionDataId(111);?>
 								<span class="busqueda_datos_titulo"> <? echo $seccion->nombre;?> : &nbsp; </span>

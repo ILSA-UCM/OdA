@@ -28,7 +28,6 @@ define('TZN_DB_USER','USERNAME');       // Nombre del usuario de la base de dato
 define('TZN_DB_PASS','PASSS');           // Contraseña del usuario de la base de datos
 define('TZN_DB_BASE','DBNAME');  	    // Nombre de la base de datos 	
 define('TZN_DB_CLASS','tzn_mysql.php');
-
 ?>
 <?php 
 /// ** Nombre de la carpeta de la aplicación  ** //
