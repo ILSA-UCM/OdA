@@ -1,12 +1,14 @@
 <?
 include_once(dirname(__FILE__)."/include.php");
 
-// Joaquin 160804 Inserto en la session la seccion a resaltar, eso permite que se siga navegando por el arbol en quierris inline
+
+// Joaquin 210804 Inserto en la session la seccion a resaltar, eso permite que se siga navegando por el arbol en quierris inline
 if (isset($_GET["idpadre"])) 
  $_SESSION["idpadre"]=$_GET["idpadre"];
 else
-	$_GET["idpadre"]=$_SESSION["idpadre"];
-  // Joaquin 160804 
+	if (isset($_SESSION["idpadre"]))
+		$_GET["idpadre"]=$_SESSION["idpadre"];
+// Joaquin 210804 
 
 
 include_once(dirname(__FILE__)."/top.php");
@@ -39,6 +41,9 @@ if ($npag=="") {
 	$npag=1;
 }
  
+ 
+ 
+ 
   // Joaquin 160804 Sobre escribe la busqueda cacheada con una nueva con los valor que necesita (mete de mas chapuceado pero no le importa al sistema)
 foreach ($dict as $clave => $valor)
 {
@@ -48,7 +53,6 @@ foreach ($dict as $clave => $valor)
 	$_SESSION["lsvirtual_object_busqueda"][$clave]=$valor;
 }
   // Joaquin 160804 
-
 
 if($dict["pag_inicial"]=="-1"){  // alfredo 140831 
 	//$dict=$visit->util->getRequest();
