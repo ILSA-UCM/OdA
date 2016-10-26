@@ -39,6 +39,18 @@ $orden_tipo = $dict["orden_tipo"];
 //var_dump($dict);
 if ($npag=="") { 
 	$npag=1;
+	//Joaquin 161021 Si la pagina es 0 limpia la session de los valoresPaginacion
+	
+	foreach ($_SESSION["valores_buscados"] as $clave => $valor)
+	{
+	$_SESSION["valores_buscados"][$clave]="";
+	}
+	
+	foreach ($_SESSION["lsvirtual_object_busqueda"] as $clave => $valor)
+	{
+	$_SESSION["lsvirtual_object_busqueda"][$clave]="";
+	}
+	//Joaquin 161021
 }
  
  
