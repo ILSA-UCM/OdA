@@ -111,6 +111,20 @@ if ($id=="") {
 	</TR>
 </TABLE>
 <table width="100%" border="0" cellpadding="3" cellspacing="1" style="border:1px solid #CCCCCC;">
+<?
+if ($id!="") {
+	echo '<tr id="div_visible" style="display:block">
+		<td class="nombrecampo">
+			Id:
+		</td>
+		<td class="textocampo">	'.
+			$id.'
+		</td>
+	</tr>
+	';
+}
+	?>
+	
 	<tr id="div_visible" style="display:block">
 		<td class="nombrecampo">
 			Visible:
