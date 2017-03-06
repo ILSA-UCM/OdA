@@ -46,6 +46,8 @@ $curlFile = curl_init($urlFile);
 curl_setopt($curlFile, CURLOPT_POST, 1);
 curl_setopt($curlFile, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($curlFile, CURLOPT_HTTPHEADER, array('Content-Type: multipart/form-data')); 
+curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 1800); // Setting the amount of time (in seconds) before the request times out
+curl_setopt($curl, CURLOPT_TIMEOUT, 3600); // Setting the maximum amount of time for cURL to execute queries 
 
 $post = array(
     'file' => '@'. 'php://temp' . "/" . $t_fich

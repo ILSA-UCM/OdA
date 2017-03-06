@@ -102,6 +102,8 @@ curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($curl, CURLOPT_POST,           1 );
 curl_setopt($curl, CURLOPT_POSTFIELDS,'&DocList='.$finalDocs.'&DoclistAdmin='.$finalDocsAllow.'&StructList='.$finalStruc); 
 curl_setopt($curl, CURLOPT_HTTPHEADER,     array('Content-Type: application/x-www-form-urlencoded')); 
+curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 1800); // Setting the amount of time (in seconds) before the request times out
+curl_setopt($curl, CURLOPT_TIMEOUT, 3600); // Setting the maximum amount of time for cURL to execute queries 
 $curl_response = curl_exec($curl);
 
 if ($curl_response === false) {
