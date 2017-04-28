@@ -317,7 +317,7 @@ if ($count==0) {
 				</span>			
 				 -->
 				<div class="paginacion_select" >
-					<? $valoresPaginacion= split(",","20,40,60,100,200,400"); ?>
+					<? $valoresPaginacion= split(",","10,20,40,60,100,200,400"); ?>
 					<select name ="paginacion"  class="selectpeque" style="width:60px;" onChange="form.submit()" >
 						<? for ($i=0;$i<count($valoresPaginacion);$i++) { ?>
 							<option id="paginacion" value="<?= $valoresPaginacion[$i] ?>" <? if ($visit->options->paginacion==$valoresPaginacion[$i]) print "selected"; ?>><?= $valoresPaginacion[$i] ?>
