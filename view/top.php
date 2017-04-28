@@ -26,7 +26,7 @@ $visit->options->sectionData=$dictFilasSectionData;
 	<script SRC="<?=$_parenDir?>view/js/jquery-ui-1.8.16.custom.min.js"></script>
 	<script SRC="<?=$_parenDir?>view/js/combobox.js"></script>
 	<script>appname="<?=APP_NAME?>"</script>
-	<?include_once(dirname(__FILE__)."/analiticstracking.php");?>
+	<? include_once(dirname(__FILE__)."/analiticstracking.php");?>
 	<link rel="stylesheet" href="<?=$_parenDir?>/view/css/smoothness/jquery-ui-1.8.16.custom.css">		
 	
 	

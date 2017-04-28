@@ -68,14 +68,7 @@ include_once(dirname(__FILE__)."/inc_secciones_logica.php");
 				<? if($activo =="activo"){?>
 					 <li >
 						<!-- alfredo 140907 <a href="<?=$enlace;?>"  <? if($item->tipo_contenido =="M" || $item->tipo_contenido =="U" ){?> target="_blank" <? }?> > -->
-						<a href="<?=$enlace;?>"  <? if($item->tipo_contenido =="M" || $item->tipo_contenido =="U" || $item->tipo_contenido =="A" ){
-							
-							//Reparado JOAQUIN GAYOSO 27/03/2017 ahora si tiene en cuenta el concepto ventana externa
-				if ($item->tipo_contenido =="M" || $item->ventanaexterna == "S")
-					echo "target=\"_blank\"" ; 
-				//Reparado JOAQUIN GAYOSO 27/03/2017 
-							
-						}?> > 
+						<a href="<?=$enlace;?>"  <? if($item->tipo_contenido =="M" || $item->tipo_contenido =="U" || $item->tipo_contenido =="A" ){?> target="_blank" <? }?> > 
 							<span class="pestana_sup_centro" style=" background-color: #FFFFFF; color:#1159AE;padding:5px;">&nbsp;<?=$item->nombre?>&nbsp;</span>
 						</a>
 						<? if($item->tipo_contenido =="C"){
@@ -93,14 +86,7 @@ include_once(dirname(__FILE__)."/inc_secciones_logica.php");
 				<? } else {?>
 					<li>
 						<!-- alfredo 140907 <a href="<?=$enlace;?>" <? if($item->tipo_contenido =="M" || $item->tipo_contenido =="U" ){?> target="_blank" <? }?> > -->
-						<a href="<?=$enlace;?>" <? if($item->tipo_contenido =="M" || $item->tipo_contenido =="U" || $item->tipo_contenido =="A" ){
-
-//Reparado JOAQUIN GAYOSO 27/03/2017 ahora si tiene en cuenta el concepto ventana externa
-				if ($item->tipo_contenido =="M" || $item->ventanaexterna == "S")
-					echo "target=\"_blank\"" ; 
-				//Reparado JOAQUIN GAYOSO 27/03/2017 
-
-						}?> >	
+						<a href="<?=$enlace;?>" <? if($item->tipo_contenido =="M" || $item->tipo_contenido =="U" || $item->tipo_contenido =="A" ){?> target="_blank" <? }?> >	
 							<span class="pestana_sup_centro">&nbsp;<?=$item->nombre?>&nbsp; </span>
 						</a>
 						<? if($item->tipo_contenido =="C"){
