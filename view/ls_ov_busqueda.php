@@ -1,7 +1,7 @@
 <?
 include_once(dirname(__FILE__)."/include.php");
 
-
+/*
 // Joaquin 210804 Inserto en la session la seccion a resaltar, eso permite que se siga navegando por el arbol en quierris inline
 if (isset($_GET["idpadre"])) 
  $_SESSION["idpadre"]=$_GET["idpadre"];
@@ -9,7 +9,7 @@ else
 	if (isset($_SESSION["idpadre"]))
 		$_GET["idpadre"]=$_SESSION["idpadre"];
 // Joaquin 210804 
-
+*/
 
 include_once(dirname(__FILE__)."/top.php");
 
