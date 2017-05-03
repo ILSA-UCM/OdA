@@ -1,15 +1,17 @@
 <?
 include_once(dirname(__FILE__)."/include.php");
 
-/*
-// Joaquin 210804 Inserto en la session la seccion a resaltar, eso permite que se siga navegando por el arbol en quierris inline
+
+// Joaquin 170503 Inserto en la session la seccion a resaltar, eso permite que se siga navegando por el arbol en quierris inline
 if (isset($_GET["idpadre"])) 
  $_SESSION["idpadre"]=$_GET["idpadre"];
+if (isset($_POST["idpadre"])) 
+ $_SESSION["idpadre"]=$_POST["idpadre"];
 else
-	if (isset($_SESSION["idpadre"]))
+	if (isset($_SESSION["idpadre"])&&isset($_GET))
 		$_GET["idpadre"]=$_SESSION["idpadre"];
-// Joaquin 210804 
-*/
+
+// Joaquin 170503 
 
 include_once(dirname(__FILE__)."/top.php");
 
