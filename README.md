@@ -14,10 +14,10 @@ Para el funcionamiento de la aplicacion <i>OdA</i> es **requerido**:
 
 Las intrucciones especificas para cada una de las plataformas puede descargarse de la carpeta manuales de este mismo repositorio o en las siguientes URLS:
 
->-[El proyecto OdA: “Objetos de Aprendizaje en el campus virtual”]
->-[Guía de Gestión del repositorio de Objetos Digitales OdA ]
->-[Exportador/Actualizador de datos OdA-XLS. Guía Técnica]
->-[Generador de informes HTML con OdA-Clavy. Guía Técnica.]
+> - [El proyecto OdA: “Objetos de Aprendizaje en el campus virtual”]
+> - [Guía de Gestión del repositorio de Objetos Digitales OdA ]
+> - [Exportador/Actualizador de datos OdA-XLS. Guía Técnica]
+> - [Generador de informes HTML con OdA-Clavy. Guía Técnica.]
 
 Un Saludo.
 
