@@ -12,7 +12,7 @@ Para el funcionamiento de la aplicacion <i>OdA</i> es **requerido**:
 
 **Recomendamos descargarse el paquete <i>[XAMPP]</i> que contine todo lo necesario para poder ejecutar la aplicacion <i>OdA</i> tanto para <i>MAC</i>, <i>LINUX</i> o <i>WINDOWS</i>**  
 
-Las intrucciones especificas para cada una de las plataformas puede descargarse de la carpeta manuales de este mismo repositorio o en las siguientes URLS:
+Las instrucciones especificas para cada una de las plataformas puede descargarse de la carpeta manuales de este mismo repositorio, también están disponibles los siguientes manuales de uso en <i>eprints</i> a través de las siguientes URLS:
 
 > - [El proyecto OdA: “Objetos de Aprendizaje en el campus virtual”]
 > - [Guía de Gestión del repositorio de Objetos Digitales OdA ]
