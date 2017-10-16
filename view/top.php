@@ -1,7 +1,6 @@
 <?
 
 
-
 $preferencias_seguridad=$visit->dbBuilder->getPreferenciaFromAtributo("seguridad_web");
 $valores_sectionData=$visit->dbBuilder->getSectionData();
 $dictFilasSectionData = $visit->util->getDict( $valores_sectionData );
@@ -143,17 +142,17 @@ $visit->options->sectionData=$dictFilasSectionData;
 					$('.hijossec_<?=$caminoActivoSeccion[$i]?>').show();
 				<?}?>
 				//Logica criterios
-				$(".sec_<?=htmlspecialchars($dict['id'], ENT_QUOTES, 'UTF-8');?> .value_<?=$dict['value']?>").removeClass("criterio_inactivo");
-				$(".sec_<?=htmlspecialchars($dict['id'], ENT_QUOTES, 'UTF-8');?> .value_<?=$dict['value']?>").addClass("criterio_activo");
-				$(".sec_<?=htmlspecialchars($dict['id'], ENT_QUOTES, 'UTF-8');?> .value_<?=$dict['value']?> .enlace_value:first").addClass("enlace_value_activo");
-				$(".sec_<?=htmlspecialchars($dict['id'], ENT_QUOTES, 'UTF-8');?> .extiendehijosvalue_<?=$dict['value']?>").click();
+				$(".sec_<?=htmlspecialchars($dict['id'], ENT_QUOTES, 'UTF-8');?> .value_<?=htmlspecialchars($dict['value'], ENT_QUOTES, 'UTF-8');?>").removeClass("criterio_inactivo");
+				$(".sec_<?=htmlspecialchars($dict['id'], ENT_QUOTES, 'UTF-8');?> .value_<?=htmlspecialchars($dict['value'], ENT_QUOTES, 'UTF-8');?>").addClass("criterio_activo");
+				$(".sec_<?=htmlspecialchars($dict['id'], ENT_QUOTES, 'UTF-8');?> .value_<?=htmlspecialchars($dict['value'], ENT_QUOTES, 'UTF-8');?> .enlace_value:first").addClass("enlace_value_activo");
+				$(".sec_<?=htmlspecialchars($dict['id'], ENT_QUOTES, 'UTF-8');?> .extiendehijosvalue_<?=htmlspecialchars($dict['value'], ENT_QUOTES, 'UTF-8');?>").click();
 				//Desactivo algun criterio del mismo OV que sea hijo de la selección
-				$(".sec_<?=htmlspecialchars($dict['id'], ENT_QUOTES, 'UTF-8');?> .value_<?=$dict['value']?>").find(".criterio").each(function(i){
+				$(".sec_<?=htmlspecialchars($dict['id'], ENT_QUOTES, 'UTF-8');?> .value_<?=htmlspecialchars($dict['value'], ENT_QUOTES, 'UTF-8');?>").find(".criterio").each(function(i){
 					$(this).removeClass("criterio_activo");
 					$(this).addClass("criterio_inactivo");
 				});
 				//Activo todos los criterios que esten por encima de la selección dentro de la misma sección
-				$(".sec_<?=htmlspecialchars($dict['id'], ENT_QUOTES, 'UTF-8');?> .value_<?=$dict['value']?>").parents(".criterio").each(function(i){
+				$(".sec_<?=htmlspecialchars($dict['id'], ENT_QUOTES, 'UTF-8');?> .value_<?=htmlspecialchars($dict['value'], ENT_QUOTES, 'UTF-8');?>").parents(".criterio").each(function(i){
 					$(this).removeClass("criterio_inactivo");
 					$(this).addClass("criterio_activo");
 					$(this).find(".enlace_value:first").addClass("enlace_value_activo");
