@@ -1,11 +1,21 @@
 <?
 include_once(dirname(__FILE__)."/include.php");
 include_once("../FCKeditor/fckeditor.php") ;
-include_once(dirname(__FILE__)."/top.php");
+
+//Joaquin 180608 Al cargar el top no redireccionaba
+
 $dict= $visit->util->getRequest();
 $id = $dict["id"];
 $idpadre = $dict["idpadre"];
 $idvuelta=$id;
+
+if ((!($visit->dbBuilder->tienePermisoUsuarioSobreOV("E",$id,$_SESSION["userid"])) && !$visit->options->usuario->esRolSuperadmin())) {
+	$visit->util->redirect("cm_view_virtual_object.php?idov=".$id);
+}
+
+include_once(dirname(__FILE__)."/top.php");
+//Joaquin 180608 
+
 // alfredo 140811 $idvuelta = $dict["idvuelta"];
 //var_dump($dict);
 
@@ -21,10 +31,11 @@ if ($id!="") {
 		
 						
 					
-
-if ((!($visit->dbBuilder->tienePermisoUsuarioSobreOV("E",$id,$_SESSION["userid"])) && !$visit->options->usuario->esRolSuperadmin())) {
-	$visit->util->redirect("cm_view_virtual_object.php?idov=".$id);
-}
+//Joaquin 180608 Al cargar el top no redireccionaba
+//if ((!($visit->dbBuilder->tienePermisoUsuarioSobreOV("E",$id,$_SESSION["userid"])) && !$visit->options->usuario->esRolSuperadmin())) {
+//	$visit->util->redirect("cm_view_virtual_object.php?idov=".$id);
+//}
+//Joaquin 180608
 
 // 140723  alfredo 
 $esSuperadmin=false;
