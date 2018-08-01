@@ -160,7 +160,7 @@ function imprimeNavegacion($idseccion, $acum_navegacion, $nivel,$idpadre,$visibl
 							} else {
 								$cadena = $value->value;
 							}
-							
+							$cadena=strip_tags($cadena);
 									
 							if ($seccion->tipo_valores == "N"){
 								$numdec = $decimales;
@@ -175,7 +175,7 @@ function imprimeNavegacion($idseccion, $acum_navegacion, $nivel,$idpadre,$visibl
 								$cadena = $cadena."(".$value->cuenta.")";									
 							}else{
 								$cadena= $cadena."(".$value->cuenta.")";					
-							}
+							}							
 							//creamos el identificador de la caja siguiente	y la clase activa o inactiva actual		
 							
 									$value->value=str_replace("+", "xxjj", $value->value); // 1.-   alfredo 180613

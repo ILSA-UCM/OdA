@@ -91,7 +91,7 @@ $url= $visit->util->getUrlQuery("",$visit->util->getQueryString());
 				} else {
 					$cadena = $value->value;
 				}
-									
+				$cadena=strip_tags($cadena);				
 				if ($seccion->tipo_valores == "N"){
 					$numdec = $visit->dbBuilder->getCantidadDecimales($seccion->id);
 					$cadena= round($cadena,$numdec)." (".$value->cuenta.")";

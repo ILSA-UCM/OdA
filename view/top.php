@@ -29,7 +29,7 @@ $visit->options->sectionData=$dictFilasSectionData;
 	<link rel="stylesheet" href="<?=$_parenDir?>/view/css/smoothness/jquery-ui-1.8.16.custom.css">		
 	
 	
-	<META NAME="Author" CONTENT="Universidad Complutense de Madrid & Bernardo Chenlo">
+	<META NAME="Author" CONTENT="Universidad Complutense de Madrid">
 	<META NAME="Keywords" CONTENT="<?= trad("datos_palabras")  ?>">
 	<META NAME="Description" CONTENT="<?=trad("datos_descripcion") ?>">
 </HEAD>
