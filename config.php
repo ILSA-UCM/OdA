@@ -38,3 +38,26 @@ set_time_limit(0);
 	define('APP_NAME','FOLDERNAME');   //Nombre de subcarpeta que va a contener la aplicación.
 				    //Si la aplicación está en la raíz del servidor dejar en blanco
 ?>
+
+<?php
+//FALLO DE SEGURIDAD detectado en odas que están en el mismo servidor. alfredo 181019
+//Si un usuario está trabajando como superusuario en un oda, tendrá  algunos privilegios 
+//de superusuario si estando en esta situacion accede, con el mismo navegador, como visitante, a 
+//otro oda que esté en el mismo servidor (esta sería la situación que podría darse en las prácticas, o 
+//en general en usuarios de odas diferentes en el mismo servidor). 
+//Para impedir esta posibilidad se resetean las variables de sesion implicadas en la autentificación. 
+//Ello impide que se pueda acceder con privilegios de superusuario al segundo oda 
+//(esta acción también lo expulsa como superusuario, o cualquier otro usuario registrado, del primer oda).
+
+
+if(!($_SESSION["authenticated"]==NULL)){
+	if(!($_SESSION["authenticated"]==APP_NAME.$_SESSION["userid"])){
+	$_SESSION["session"]=NULL;
+	$_SESSION["idusuario"]=NULL;
+	$_SESSION["name"]=NULL;
+	$_SESSION["authenticated"]=NULL;
+	$_SESSION["userid"]=NULL;
+	$_SESSION["UserRolUser"]=NULL;
+	}
+}
+?>
