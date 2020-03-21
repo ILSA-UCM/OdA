@@ -3,8 +3,8 @@
 set_include_path(get_include_path() . PATH_SEPARATOR . dirname(__FILE__)."/lib");
 
 
-include_once(dirname(__FILE__)."/adodb350/adodb.inc.php");
-include_once(dirname(__FILE__)."/adodb350/adodb-errorpear.inc.php");
+include_once(dirname(__FILE__)."/adodb5/adodb.inc.php");
+include_once(dirname(__FILE__)."/adodb5/adodb-errorpear.inc.php");
 $ADODB_FETCH_MODE = ADODB_FETCH_ASSOC;
 include_once(dirname(__FILE__)."/../config.php");
 include_once(dirname(__FILE__)."/classes.php");
@@ -19,7 +19,7 @@ if(APP_NAME!=""){
 	$_parenDir = $_parenDir."/".APP_NAME."/";
 }
 
-$visit->options->type="mysql";
+$visit->options->type="mysqli";
 //Configuración local
 if (file_exists( dirname(__FILE__)."/../../include.php")) {
 	include_once(dirname(__FILE__)."/../../include.php");
@@ -28,7 +28,10 @@ if (file_exists( dirname(__FILE__)."/../../include.php")) {
 	$visit->dbBuilder->configureADODB($visit->options->type,TZN_DB_HOST,TZN_DB_USER,TZN_DB_PASS,TZN_DB_BASE);
 }
 
-mysql_set_charset('utf8');
+mysqli_set_charset('utf8');
+
+#mysql_set_charset('utf8');
+
 $visit->dbBuilder->generarSql = new ClsSqlMysql();
 $visit->prefs = &$prefs;
 
