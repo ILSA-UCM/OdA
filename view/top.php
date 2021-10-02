@@ -16,7 +16,7 @@ $visit->options->sectionData=$dictFilasSectionData;
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <HTML>
 <HEAD>
-<?//	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> ?>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<TITLE> <?= trad("datos_titulo") ?></TITLE>	
 	<script language="JavaScript" type="text/JavaScript"></script>
 	<script SRC="<?=$_parenDir?>bo/misc/scripts/func.js"></script>
