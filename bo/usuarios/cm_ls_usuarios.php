@@ -122,7 +122,7 @@ $filas = $visit->dbBuilder->getTablaFiltradaLimit($usuarios, $inicio - 1 ,$visit
 		<TABLE  border="0" width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #CCCCCC;">
 			<TR>
 				<TD width="30%" height="24" align="left"  background="/bo/img/backoffice_fondo_cab_tabla.jpg">&nbsp;[<?= $inicio ?>-<?= $visit->util->muestrahastareg($visit->options->paginacion,$count,$npag) ?>] de <?= $count ?>&nbsp;
-					<? $valoresPaginacion=split(",","20,40,60,100,200,400"); ?>
+					<? $valoresPaginacion=preg_split(",","20,40,60,100,200,400"); ?>
 					<select name ="paginacion"  class="selectpeque" style="width:60px;" onChange="window.location.href=construyeUrlMenosMas(window.location.href,'paginacion,npag','paginacion='+formlistado.paginacion.value)" >
 						<? for ($i=0;$i<count($valoresPaginacion);$i++) { ?>
 							<option value="<?= $valoresPaginacion[$i] ?>" <? if ($visit->options->paginacion==$valoresPaginacion[$i]) print "selected"; ?>><?= $valoresPaginacion[$i] ?>

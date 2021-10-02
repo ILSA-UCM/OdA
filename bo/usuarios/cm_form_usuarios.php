@@ -20,6 +20,8 @@ if (!isset($id)) $id="";
 		$fila->fecha = date("Ymd");
 	} else {
 		$fila = $visit->dbBuilder->getUsuariosId($id);
+		if (!file_exists("beOldMan.debug"))
+			$fila->password=""; 
 	}
 
 ?>

@@ -7748,7 +7748,7 @@ function getOVsClasificacionAdminCount($idsec,$controladosAnteriores,$controlado
 
 		$nombreIco ="";
 
-		if(name != ""){
+		if($name != ""){
 
 			$extension= $visit->util->getExtension($name);
 
