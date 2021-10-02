@@ -15,6 +15,7 @@ class ClsDbBuilderBase {
 	function configureADODB( $tipo, $dsn, $user, $password, $database) {
 		ADOLoadCode($tipo);
 		$this->conn=&ADONewConnection($tipo);
+		$this->conn->setConnectionParameter('CharacterSet', 'UTF-8');
 		$this->conn->Connect($dsn,$user,$password, $database);
 		//$this->conn->PConnect($host.":".$dbname,$user,$password);		
 	}	
