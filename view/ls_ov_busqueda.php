@@ -144,10 +144,10 @@ if(!$visit->util->esSuperAdmin()){
 
 
 /// chapuza alfredo 140901 ************************************************************************
-// deber’a bastar con calcular count, pero si se hace la bœsqueda sin especificar ninguna seccion deberia de dar el total de OVs
+// deberï¿½a bastar con calcular count, pero si se hace la bï¿½squeda sin especificar ninguna seccion deberia de dar el total de OVs
 // a que tiene acceso ese tipo de usuario pero da todos los OVs 
 // La chapuza sirve para contar correctamente la totalidad de OVs a que tiene acceso el tipo de usuario
-// Tengo que usuar un l’mite para la BD que fijo en 10.000.000
+// Tengo que usuar un lï¿½mite para la BD que fijo en 10.000.000
 
 // echo "------id USUARIO="; var_dump($dict["idusuario"]);
 // substituido por la chapuza 140901   
@@ -247,14 +247,14 @@ if ($count==0) {
 //var_dump($filas);
 
 // COMANAGER 1.0: Codigo personalizado
-	function getTitulo() {
+/**	function getTitulo() {
 		return $this->id;
 	} 
 
 	function getAvance() {
 		global $visit;
 		return $visit->util->acortaCadena( $this->id );
-	} 
+	} **/
 // COMANAGER 1.0: Fin Codigo personalizado
 	
 ?>
@@ -319,7 +319,7 @@ if ($count==0) {
 				</span>			
 				 -->
 				<div class="paginacion_select" >
-					<? $valoresPaginacion= split(",","10,20,40,60,100,200,400"); ?>
+					<? $valoresPaginacion= preg_split(",","10,20,40,60,100,200,400"); ?>
 					<select name ="paginacion"  class="selectpeque" style="width:60px;" onChange="form.submit()" >
 						<? for ($i=0;$i<count($valoresPaginacion);$i++) { ?>
 							<option id="paginacion" value="<?= $valoresPaginacion[$i] ?>" <? if ($visit->options->paginacion==$valoresPaginacion[$i]) print "selected"; ?>><?= $valoresPaginacion[$i] ?>
