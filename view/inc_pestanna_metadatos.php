@@ -181,7 +181,7 @@ $rol = $visit->dbBuilder->getUsuarioRol($username);	?>
 
                               ?>
 
-                            <? if (!file_exists(extended.conf)){?>
+                            <? if (!file_exists('extended.conf')){?>
                                 <?=$atrib->value?>
                             <? }else{?>
 							    <?=nl2br($text);?>

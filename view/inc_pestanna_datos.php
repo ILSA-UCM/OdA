@@ -240,7 +240,7 @@ $rol = $visit->dbBuilder->getUsuarioRol($username);
 
 							  //NEgrita Cursiva Links Joaquin Fin
                               ?>
-                            <? if (!file_exists(extended.conf)){?>
+                            <? if (!file_exists('extended.conf')){?>
                                 <?=$atrib->value?>
                             <? }else{?>
                                 <?=nl2br($text);?>
