@@ -28,6 +28,9 @@ if($seleccion != ""){
 	<META NAME="Author" CONTENT="Universidad Complutense de Madrid & Bernardo Chenlo">
 	<META NAME="Keywords" CONTENT="<?= trad("datos_palabras")  ?>">
 	<META NAME="Description" CONTENT="<?=trad("datos_descripcion") ?>">
+
+    <? include_once("analiticstracking.php");?>
+
 <? }
 
 if (!$visit->options->tieneAcceso("E",$idov)) $visit->options->sinAcceso();
@@ -172,7 +175,7 @@ if ($seleccion=="1") {
 <?} ?>
 
 <!-- BUSCADOR -->
-<!-- COMENTAR EL BUSCADOR SI LA BASE DE DATOS TIENE MçS DE VARIOS MILES DE OBJETOS -->
+<!-- COMENTAR EL BUSCADOR SI LA BASE DE DATOS TIENE Mï¿½S DE VARIOS MILES DE OBJETOS -->
 <div class="caja_buscador" <? if($icono->id != "") print "style='width:650px;float:left;'"?>>
 	<div class="buscador"> 
 		<span>&nbsp; Buscar objetos &nbsp; </span>
@@ -445,10 +448,11 @@ if ($seleccion=="1") {
 		 
 	</div>
 	<div class="clearfix"></div>
+
 </div>
 
- <div class="clearfix"></div> 
-
+ <div class="clearfix"></div>
+<div id="share"></div>
 <script>
 $('#entrada_buscador_vo').combobox({
 	selected: function(){ window.location.href='cm_view_virtual_object.php?idov='+(this.value)+'&idpadre=<?=$idpadre?>&seleccion=<?=$seleccion?>';}
@@ -464,3 +468,16 @@ if ($seleccion=="1") {
 include_once(dirname(__FILE__)."/bottom.php"); 
 }
 ?>
+
+
+<script src="minishare-0.0.1.js"></script>
+<script>
+
+$( document ).ready(function() {
+
+	$.miniShare( {
+	message: "Comparte esta Ficha",
+	done_message: "Gracias por Compartir"
+	});
+});
+</script>

@@ -310,7 +310,7 @@ if($extension[0] != "" )
 			}
 			$caminoItemsStr = $visit->util->obtenerCaminoCategoriaStr($dictFilas, "", $sectionData->id);
 			$caminoItems =  substr( $caminoItemsStr, 1, strlen($caminoItemsStr)-2);
-			$caminoItems =  split(";",$caminoItems);
+			$caminoItems =  preg_split(";",$caminoItems);
 			$ancho=18*(count($caminoItems)-2);
 			
 		?>
@@ -418,7 +418,7 @@ if($extension[0] != "" )
 			 </tr>
 			 <? 
 			
-			$seccionesRecursos=  split(",",$seccionesRecursos);?>
+			$seccionesRecursos=  preg_split(",",$seccionesRecursos);?>
 			<tr>
 			<td class="popuptitcampo">
 			<IMG SRC="/bo/img/pc.gif" WIDTH="<?= $ancho ?>" HEIGHT="1" BORDER="0" ALT=""><? if ($sectionData->idpadre==0) { ?> <b><?= $sectionData->nombre ?></b><? } else { ?><?= $sectionData->nombre ?><?}?>
@@ -519,7 +519,7 @@ if($extension[0] != "" )
 										<?
 											$caminoItemsStrRec = $visit->util->obtenerCaminoCategoriaStr($dictFilas, "", $sec->id);
 											$caminoItemsRec =  substr( $caminoItemsStrRec, 1, strlen($caminoItemsStrRec)-2);
-											$caminoItemsRec =  split(";",$caminoItemsRec);
+											$caminoItemsRec =  preg_split(";",$caminoItemsRec);
 											$anchoRec=18*(count($caminoItemsRec)-2);
 										?>
 
@@ -676,7 +676,7 @@ if($extension[0] != "" )
 						</table>
 					</div>			
 					<div id='propio' style="display:none" >
-					 <? if($extension_permitida_php =="" ){?><div style= "margin:0px 0px 5px 100px;"><b>No hay ninguna extensión definda. Acuda a preferencias para definir extensiones.</b> </div> 
+					 <? if($extension_permitida_php =="" ){?><div style= "margin:0px 0px 5px 100px;"><b>No hay ninguna extensiï¿½n definda. Acuda a preferencias para definir extensiones.</b> </div> 
 					 <? } else{ ?><div style= "margin:0px 0px 5px 210px;"><?="Extensiones permitidas: ".$extension_permitida_php; ?></div><? }?>
 					 	
 						<table cellspacing='0'  cellpadding='0' width='80%' align='center'>
@@ -741,7 +741,7 @@ if($extension[0] != "" )
 											<?
 												$caminoItemsStrRec = $visit->util->obtenerCaminoCategoriaStr($dictFilas, "", $sec2->id);
 												$caminoItemsRec =  substr( $caminoItemsStrRec, 1, strlen($caminoItemsStrRec)-2);
-												$caminoItemsRec =  split(";",$caminoItemsRec);
+												$caminoItemsRec =  preg_split(";",$caminoItemsRec);
 												$anchoRec=18*(count($caminoItemsRec)-2);
 											?>
 											<tr>
@@ -907,7 +907,7 @@ if($extension[0] != "" )
 			     }
 			}
 			if(!permitida)
-				alert("Extensión no valida.\nLas extensiones permitidas son  "+ extension_permitida_php);	
+				alert("Extensiï¿½n no valida.\nLas extensiones permitidas son  "+ extension_permitida_php);	
 		}
 		
 	}

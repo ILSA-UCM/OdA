@@ -7,7 +7,6 @@ $op = $dict["op"];
 $id = $dict["id"];
 //var_dump($op);echo("top file   ");var_dump($id);
 
-
 $fromlistado =$dict["fromlistado"];
 $idov =$dict["idov"];
 //ini_set("memory_limit","500M");
@@ -414,7 +413,12 @@ else if ($op=="modificar_virtual_object") {
 									$obj2=new ClsTextData();
 									$obj2->idseccion=$sectionData->id;
 									$obj2->idov=$obj->id;
-									$obj2->value=mysql_real_escape_string($dict["seccion_".$sectionData->id]);
+
+									$obj2->value=mysqli_real_escape_string($visit->dbBuilder->conn->_connectionID,
+                                        $dict["seccion_".$sectionData->id]);
+
+                                    var_dump($obj2);
+
 									$obj2 = $visit->dbBuilder->persist($obj2);
 								}
 							} else if ($obj2->value!=$dict["seccion_".$sectionData->id]) { 								
@@ -422,7 +426,8 @@ else if ($op=="modificar_virtual_object") {
 								$obj3=new ClsTextData();
 								$obj3->idseccion=$sectionData->id;
 								$obj3->idov=$obj->id;
-								$obj3->value= mysql_real_escape_string($dict["seccion_".$sectionData->id]);
+								$obj3->value= mysqli_real_escape_string($visit->dbBuilder->conn->_connectionID,
+                                    $dict["seccion_".$sectionData->id]);
 								$obj3 = $visit->dbBuilder->persist($obj3);
 							}												
 						}
@@ -538,11 +543,13 @@ else if ($op=="modificar_virtual_object") {
 										$obj2->idseccion=$sec->id;
 										$obj2->idov=$obj->id;
 										$obj2->idrecurso=$recurso->id;
-										$obj2->value=mysql_real_escape_string($dict["seccion_".$sec->id."_recurso_".$recurso->id]);
+										$obj2->value=mysqli_real_escape_string($visit->dbBuilder->conn->_connectionID,
+                                            $dict["seccion_".$sec->id."_recurso_".$recurso->id]);
 										$obj2 = $visit->dbBuilder->persist($obj2);
 									}
 								} else if ($obj2->value != $dict["seccion_".$sec->id."_recurso_".$recurso->id]) {
-									$obj2->value=mysql_real_escape_string($dict["seccion_".$sec->id."_recurso_".$recurso->id]);
+									$obj2->value=mysqli_real_escape_string($visit->dbBuilder->conn->_connectionID,
+                                        $dict["seccion_".$sec->id."_recurso_".$recurso->id]);
 									$obj2 = $visit->dbBuilder->persist($obj2);
 								}
 							}else if($sec->tipo_valores =="F"){
@@ -712,7 +719,8 @@ else if ($op=="modificar_virtual_object") {
 												$obj2->idseccion=$sec->id;
 												$obj2->idov=$obj->id;
 												$obj2->idrecurso=$resource->id;
-												$obj2->value=mysql_real_escape_string($dict["seccion_".$sec->id."_nuevo"]);
+												$obj2->value=mysqli_real_escape_string($visit->dbBuilder->conn->_connectionID,
+                                                    $dict["seccion_".$sec->id."_nuevo"]);
 												$obj2 = $visit->dbBuilder->persist($obj2);
 										} else if ($sec->tipo_valores=="F"){
 												$obj2=new ClsDateData();
@@ -775,7 +783,8 @@ else if ($op=="modificar_virtual_object") {
 												$obj2->idseccion=$sec->id;
 												$obj2->idov=$obj->id;
 												$obj2->idrecurso=$resource->id;
-												$obj2->value=mysql_real_escape_string($dict["seccion_".$sec->id."_nuevo"]);
+												$obj2->value=mysqli_real_escape_string($visit->dbBuilder->conn->_connectionID,
+                                                    $dict["seccion_".$sec->id."_nuevo"]);
 												$obj2 = $visit->dbBuilder->persist($obj2);
 										} else if ($sec->tipo_valores=="F"){
 												$obj2=new ClsDateData();

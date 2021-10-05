@@ -1,4 +1,15 @@
-<? 
+<?
+function str_replace_first($from, $to, $subject)
+{
+    $from = '/'.preg_quote($from, '/').'/';
+
+
+
+    return preg_replace($from, $to, $subject, 1);
+}
+?>
+
+<?
 //numero de decimales a mostar en los campos numericos
 if($visit->options->numeric_decimal ==""){
 	$preferenciasDecimales = new ClsPreferenciasPresentacion();
@@ -98,8 +109,24 @@ $rol = $visit->dbBuilder->getUsuarioRol($username);
 			 if($secDat->visible!="S") $secDat=NULL;
 			}
 		?>
-			
-	<?// Sección de tipo TEXTO
+
+		<?
+//
+	$Italicos=array();
+
+	if (in_array($secDat->nombre,$Italicos))
+	{
+	if($ancho == 0 ){
+		$claseTexto="italico cabecera_texto_nivel1";
+	}else{
+		$claseTexto="italico cabecera_texto_nivel2";
+		}
+	}
+
+	//
+?>
+
+	<?// Secciï¿½n de tipo TEXTO
 	 if ($secDat->tipo_valores=="T") { 
 			if ($ov->id!=0) {
 				$atrib= $visit->dbBuilder->obtenerAtributoValorTextFromSeccionOV($secDat->id,$ov->id);
@@ -114,14 +141,117 @@ $rol = $visit->dbBuilder->getUsuarioRol($username);
 						<? if($hayIframe > 0 ){?>
 					 		<iframe src="inc_textData_generico.php?SecId=<?=$secDat->id?>&ovId=<?=$ov->id?>" class="iframe_textData"><?=$atrib->value?></iframe>
 						<? } else {?>
-							<?=$atrib->value?>
+
+
+
+						<?
+
+						//NEgrita Cursiva Links Joaquin Inicio
+                              $text=$atrib->value;
+
+                              $text = " ".$text;
+
+                              $text = preg_replace('(((f|ht){1}tp://)[-a-zA-Z0-9@:%_+.~#?&//=]+)','<a href="\1" target="_blank">\1 </a>', $text);
+
+                              $text = preg_replace('(((f|ht){1}tps://)[-a-zA-Z0-9@:%_+.~#?&//=]+)','<a href="\1" target="_blank">\1</a>', $text);
+
+                              $text = preg_replace('([[:space:]()[{}])(www.[-a-zA-Z0-9@:%_+.~#?&//=]+)','\1<a href="http://\2" target="_blank">\2</a>', $text);
+
+                              $text = preg_replace('([_.0-9a-z-]+@([0-9a-z][0-9a-z-]+.)+[a-z]{2,3})','<a href="mailto:\1" target="_blank">\1</a>', $text);
+
+
+							  $mystring = $text;
+							  $findme   = '$';
+
+							  $pos = strpos($mystring, $findme);
+
+							  $acti=false;
+
+
+							  while ($pos !== false)
+							  {
+
+
+								  if ($acti==false)
+									  $repa="<i>";
+								  else
+									  $repa="</i>";
+
+
+
+								  $text=str_replace_first('$', $repa, $text);
+
+								  $mystring = $text;
+								  $findme   = '$';
+
+							      $pos = strpos($mystring, $findme);
+
+								  if ($acti == true)
+									  $acti=false;
+								  else
+									  $acti=true;
+
+							  }
+
+
+
+
+							  $mystring = $text;
+							  $findme   = '%';
+
+							  $pos = strpos($mystring, $findme);
+
+							  $actb=false;
+
+
+							  while ($pos !== false)
+							  {
+
+								  if ($actb == false)
+									  $repa="<b>";
+								  else
+									  $repa="</b>";
+
+
+
+
+								  $text=str_replace_first('%', $repa, $text);
+
+
+								  $mystring = $text;
+								  $findme   = '%';
+
+							      $pos = strpos($mystring, $findme);
+
+								  if ($actb == true)
+									  $actb=false;
+								  else
+									  $actb=true;
+
+							  }
+
+							  if ($actb==true)
+								  $text=$text.'</b>';
+
+
+							   if ($acti==true)
+								  $text=$text.'</i>';
+
+
+							  //NEgrita Cursiva Links Joaquin Fin
+                              ?>
+                            <? if (!file_exists(extended.conf)){?>
+                                <?=$atrib->value?>
+                            <? }else{?>
+                                <?=nl2br($text);?>
+                            <?}?>
 						<? }?>						  
 					</div>
 					<div class="clearfix"></div>
 				</div>
 			<? } ?>
 				
-	<? //Sección de tipo NÚMERO
+	<? //Secciï¿½n de tipo Nï¿½MERO
 	} else if ($secDat->tipo_valores=="N") { 
 		if ($ov->id!=0) {
 			$atrib= $visit->dbBuilder->obtenerAtributoValorNumFromSeccionOV($secDat->id,$ov->id);

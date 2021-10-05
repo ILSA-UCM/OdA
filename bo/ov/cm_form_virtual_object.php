@@ -1,6 +1,6 @@
 <?
 /* 
- * Archivo generado dinámicamente por Content Manager
+ * Archivo generado dinï¿½micamente por Content Manager
 */
 //select idseccion,value from controlled_data group by idseccion,value order by idseccion;
 include_once(dirname(__FILE__)."/include.php");
@@ -10,7 +10,7 @@ $dict = $visit->util->getRequest();
 $visit->options->seccion = "OV";
 $visit->options->subseccion = "ObjetosVirtuales";
 //$session->lsvirtual_object  = "cm_ls_virtual_object.php";
-//$session->lsvirtual_object = "javascript:window.history.back()";   140206  alfredo a–ade en linea sigiente   && !id==""
+//$session->lsvirtual_object = "javascript:window.history.back()";   140206  alfredo aï¿½ade en linea sigiente   && !id==""
 if ((!($visit->dbBuilder->tienePermisoUsuarioSobreOV("E",$id,$_SESSION["userid"])) && !$visit->options->usuario->esRolSuperadmin() && !$id=="")) {
 	$visit->util->redirect("cm_ls_virtual_object.php");
 }
@@ -20,14 +20,14 @@ $esSuperadmin=false;
 $esSuperadmin=$_SESSION["UserRolUser"] == "A";
 //echo(" >>>>>>>>> ");var_dump($esSuperadmin);
 
-// $volver=$session->lsvirtual_object;  comentado por alfredo 13 03 27 y a–adida siguiente linea
+// $volver=$session->lsvirtual_object;  comentado por alfredo 13 03 27 y aï¿½adida siguiente linea
 //$volver="../ov/cm_ls_virtual_object.php";
 // alfredo 140707  $volver=$session->lsvirtual_object;
 $volver=$_SESSION['lsvirtual_object'];
 
 
 if($dict["desde"]=="mantenimiento"){
-	// $volver="../mantenimiento/".$session->lsrecursos; comentado por alfredo 13 03 27 y a–adida siguiente linea 
+	// $volver="../mantenimiento/".$session->lsrecursos; comentado por alfredo 13 03 27 y aï¿½adida siguiente linea 
 	 //$volver="../mantenimiento/cm_ls_recursos.php";
 	 
 	 // alfredo 140707   $volver="../mantenimiento/".$session->lsrecursos;
@@ -116,7 +116,7 @@ if($extension[0] != "" )
 			return false;
 		} else if(document.formulario.nombre_url.value == "" && document.getElementById('recurso_url').style.display == "block")
 		{
-			alert("Debe introducir una deirección url v&aacute;lida");
+			alert("Debe introducir una deirecciï¿½n url v&aacute;lida");
 			return false;
 		}else if(document.formulario.ovtext.value == "" && document.getElementById('ov').style.display == "block")
 		{
@@ -326,7 +326,7 @@ if($extension[0] != "" )
 						<A id="eliminar_recurso" HREF="#" onclick="
 							if (confirm('<?=utf8_encode("Seguro que desea eliminar este objeto?")?>')) {
 							<? if($stringids!=""){ ?>
-									if (confirm('El/los objeto/s <?=$stringids?> est\u00e1/n utilizando como recurso ajeno el objeto y/o alg\u00fan recurso propio del objeto que se dispone a borrar.\n <?=utf8_encode("¿CONFIRMA la eliminación del objeto?")?>')) 
+									if (confirm('El/los objeto/s <?=$stringids?> est\u00e1/n utilizando como recurso ajeno el objeto y/o alg\u00fan recurso propio del objeto que se dispone a borrar.\n <?=utf8_encode("ï¿½CONFIRMA la eliminaciï¿½n del objeto?")?>')) 
 								 		{
 								<? } ?>
 										window.location.href='do.php?op=eliminar_virtual_object&id=<?= $fila->id ?>';
@@ -358,7 +358,7 @@ if($extension[0] != "" )
 						<A id="eliminar_vo" HREF="#" onclick="
 							if (confirm('<?=utf8_encode("Seguro que desea eliminar este objeto?")?>')) {
 							<? if($stringids!=""){ ?>
-								if (confirm('El/los objeto/s <?=$stringids?> est\u00e1/n utilizando como recurso ajeno este objeto y/o alg\u00fan recurso propio del objeto que se dispone a borrar.\n <?=utf8_encode("¿CONFIRMA la eliminación del objeto?")?>')) {
+								if (confirm('El/los objeto/s <?=$stringids?> est\u00e1/n utilizando como recurso ajeno este objeto y/o alg\u00fan recurso propio del objeto que se dispone a borrar.\n <?=utf8_encode("ï¿½CONFIRMA la eliminaciï¿½n del objeto?")?>')) {
 							<? } ?>
 								window.location.href='do.php?op=eliminar_virtual_object&id=<?= $fila->id ?>&<?=$procedencia?>=S';	
 							<? if($stringids!=""){ ?>
@@ -450,7 +450,7 @@ if($extension[0] != "" )
 			}
 			$caminoItemsStr = $visit->util->obtenerCaminoCategoriaStr($dictFilas, "", $sectionData->id);
 			$caminoItems =  substr( $caminoItemsStr, 1, strlen($caminoItemsStr)-2);
-			$caminoItems =  split(";",$caminoItems);
+			$caminoItems =  preg_split(";",$caminoItems);
 			$ancho=18*(count($caminoItems)-2);
 			
 		?>
@@ -582,7 +582,7 @@ if($extension[0] != "" )
 			 </tr>
 			 <? 
 			
-			$seccionesRecursos=  split(",",$seccionesRecursos);?>
+			$seccionesRecursos=  preg_split(",",$seccionesRecursos);?>
 			<tr>
 			<td class="popuptitcampo"></br><span><h3><b>- Modelo de Datos de los Recursos</b></h3></span>
 			<IMG SRC="../img/pc.gif" WIDTH="<?= $ancho ?>" HEIGHT="1" BORDER="0" ALT=""><? if ($sectionData->idpadre==0) { ?> <b><?= $sectionData->nombre ?></b><? } else { ?><?= $sectionData->nombre ?><?}?>
@@ -640,7 +640,7 @@ if($extension[0] != "" )
 										<A HREF="#" onclick="
 											if (confirm('<?=utf8_encode("Seguro que desea eliminar este recurso?")?>')) {
 											<? if($stringids!=""){ ?>
-													if (confirm('Este recurso est\u00e1 siendo referenciado desde el/los objeto/s <?=$stringids?>.\n <?=utf8_encode("¿Confirma la eliminación del recurso?")?>')) {
+													if (confirm('Este recurso est\u00e1 siendo referenciado desde el/los objeto/s <?=$stringids?>.\n <?=utf8_encode("ï¿½Confirma la eliminaciï¿½n del recurso?")?>')) {
 											<? } ?>
 													window.location.href='do.php?op=eliminar_resources&id=<?= $recurso->id ?>&idov=<?=$id?>&fromlistado=S';
 											<? if($stringids!=""){ ?>
@@ -660,7 +660,7 @@ if($extension[0] != "" )
 										<A HREF="#" onclick="
 											if (confirm('<?=utf8_encode("Seguro que desea eliminar este recurso?")?>')) {
 												<? if($stringids!=""){ ?>
-													if (confirm('Este recurso est\u00e1 siendo referenciado desde el/los objeto/s <?=$stringids?>.\n<?=utf8_encode("¿Confirma la eliminación del recurso?")?>')) {
+													if (confirm('Este recurso est\u00e1 siendo referenciado desde el/los objeto/s <?=$stringids?>.\n<?=utf8_encode("ï¿½Confirma la eliminaciï¿½n del recurso?")?>')) {
 													window.location.href='do.php?op=eliminar_resources&id=<?= $recurso->id ?>&idov=<?=$id?>&<?=$procedencia?>=S';
 													}
 												<?} else {?>
@@ -727,7 +727,7 @@ if($extension[0] != "" )
 										<?
 											$caminoItemsStrRec = $visit->util->obtenerCaminoCategoriaStr($dictFilas, "", $sec->id);
 											$caminoItemsRec =  substr( $caminoItemsStrRec, 1, strlen($caminoItemsStrRec)-2);
-											$caminoItemsRec =  split(";",$caminoItemsRec);
+											$caminoItemsRec =  preg_split(";",$caminoItemsRec);
 											$anchoRec=18*(count($caminoItemsRec)-2);
 										?>
 
@@ -923,7 +923,7 @@ if($extension[0] != "" )
 						</table>
 					</div>			
 					<div id='propio' style="display:none" >
-					 <? if($extension_permitida_php =="" ){?><div style= "margin:0px 0px 5px 100px;"><b><?=utf8_encode("No hay ninguna extensión definida. Acuda a preferencias para definir extensiones.")?></b> </div> 
+					 <? if($extension_permitida_php =="" ){?><div style= "margin:0px 0px 5px 100px;"><b><?=utf8_encode("No hay ninguna extensiï¿½n definida. Acuda a preferencias para definir extensiones.")?></b> </div> 
 					 <? } else{ ?><div style= "margin:0px 0px 5px 210px;"><?="Extensiones permitidas: ".$extension_permitida_php; ?></div><? }?>
 					 	
 						<table cellspacing='0'  cellpadding='0' width='80%' align='center'>
@@ -1004,7 +1004,7 @@ if($extension[0] != "" )
 											<?
 												$caminoItemsStrRec = $visit->util->obtenerCaminoCategoriaStr($dictFilas, "", $sec2->id);
 												$caminoItemsRec =  substr( $caminoItemsStrRec, 1, strlen($caminoItemsStrRec)-2);
-												$caminoItemsRec =  split(";",$caminoItemsRec);
+												$caminoItemsRec =  preg_split(";",$caminoItemsRec);
 												$anchoRec=18*(count($caminoItemsRec)-2);
 											?>
 											<tr>
@@ -1155,7 +1155,7 @@ if($extension[0] != "" )
 						<A id="eliminar_vo" HREF="#" onclick="
 							if (confirm('<?=utf8_encode("Seguro que desea eliminar este objeto?")?>')) {
 							<? if($stringids!=""){ ?>
-								if (confirm('El/los objeto/s <?=$stringids?> est\u00e1/n utilizando como recurso ajeno\n este objeto y/o alg\u00fan recurso propio del objeto que se dispone a borrar.\n <?=utf8_encode("¿Confirma la eliminación del objeto?")?>')) {
+								if (confirm('El/los objeto/s <?=$stringids?> est\u00e1/n utilizando como recurso ajeno\n este objeto y/o alg\u00fan recurso propio del objeto que se dispone a borrar.\n <?=utf8_encode("ï¿½Confirma la eliminaciï¿½n del objeto?")?>')) {
 							<? } ?>
 								window.location.href='do.php?op=eliminar_virtual_object&id=<?= $fila->id ?>&<?=$procedencia?>=S';	
 							<? if($stringids!=""){ ?>
@@ -1181,7 +1181,7 @@ if($extension[0] != "" )
 		}else
 		{
 			document.getElementById('error_archivo_recurso').style.display="inline";
-			document.getElementById('error_archivo_recurso').innerHTML='<?=utf8_encode("Extensión no válida")?>';
+			document.getElementById('error_archivo_recurso').innerHTML='<?=utf8_encode("Extensiï¿½n no vï¿½lida")?>';
 			document.formulario.nombre_archivo.value="";
 		}
 						
