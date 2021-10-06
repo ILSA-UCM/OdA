@@ -55,15 +55,20 @@ if (!isset($id)) $id="";
 		nombre ="login";
 		if ( esVacio(getValor(vall[ nombre ])) ) strError+=" - Login" + newLine;
 
-        if (<?=var_export(is_null($fila->id), 1)?>){
+        <?
+            if (is_null($fila->id))
+
+            {   ?>
             nombre = "password";
             if (esVacio(getValor(vall[nombre]))) strError += " - Password" + newLine;
 
             nombre = "password2";
             if (esVacio(getValor(vall[nombre]))) strError += " - Repetir password" + newLine;
 
+            <?}?>
+
             if (vall["password"].value != vall["password2"].value) strError += " - Password y repetir password deben coincidir" + newLine;
-        }
+
 
 		if (strError!="") {
 			alert("Compruebe que ha rellenado los siguientes campos:\n"+strError);
