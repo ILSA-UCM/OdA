@@ -1,4 +1,4 @@
-/* NORMAL */
+/* ITALIC */
 
 .big{
 	padding:10px; 
@@ -1206,6 +1206,7 @@ INPUT.boton				{	font-size: 10px; font-family:  Verdana, Arial, Helvetica, sans-
 	  font-family: Verdana;
 	  font-size: 13px;
 	  margin-left: 20px;
+	  font-style:italic;
 	  color:#333;
 	  text-align:left;
 }
@@ -1221,6 +1222,7 @@ INPUT.boton				{	font-size: 10px; font-family:  Verdana, Arial, Helvetica, sans-
     max-height: 273px;
      /* max-height para IE6 */
     height: expresion(this.scrollHeight > 277? "276px": "auto");
+    font-style:italic;
     text-align:left;
 
 }
@@ -1251,6 +1253,7 @@ INPUT.boton				{	font-size: 10px; font-family:  Verdana, Arial, Helvetica, sans-
   	font-family: Verdana;
   	font-size: 13px;
   	margin-left:20px;
+  	font-style:italic;
   	color:#333;
   	text-align:left;
 }
