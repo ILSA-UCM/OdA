@@ -23,7 +23,11 @@ if($seleccion != ""){
 	<script SRC="<?=$_parenDir?>view/js/jquery-ui-1.8.16.custom.min.js"></script>
 	<script SRC="<?=$_parenDir?>view/js/combobox.js"></script>
 	<link rel="stylesheet" href="<?=$_parenDir?>view/css/smoothness/jquery-ui-1.8.16.custom.css">	
-	<style><? include_once("css.php"); ?>  </style>
+	<style><? if (file_exists('italictop.conf'))
+                    include_once("css_italic.php");
+                else
+                    include_once("css.php");
+        ?></style>
 	
 	<META NAME="Author" CONTENT="Universidad Complutense de Madrid & Bernardo Chenlo">
 	<META NAME="Keywords" CONTENT="<?= trad("datos_palabras")  ?>">
