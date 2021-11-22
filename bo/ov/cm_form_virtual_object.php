@@ -1,4 +1,7 @@
 <?
+
+error_reporting (E_ALL ^ E_NOTICE);
+
 /* 
  * Archivo generado din�micamente por Content Manager
 */
