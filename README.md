@@ -7,7 +7,7 @@ La aplicación <i>OdA</i> nos permite la creación multiusuarios de repositorios
 
 Para el funcionamiento de la aplicacion <i>OdA</i> es **requerido**:
 > - Apache Web Server
-> - PHP
+> - PHP (7.2 Recomendado)
 > - MySQL
 
 **Recomendamos descargarse el paquete <i>[XAMPP]</i> que contine todo lo necesario para poder ejecutar la aplicacion <i>OdA</i> tanto para <i>MAC</i>, <i>LINUX</i> o <i>WINDOWS</i>**  

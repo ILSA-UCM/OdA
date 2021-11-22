@@ -1,6 +1,6 @@
 <? 
 /* 
- * Archivo generado dinámicamente por Content Manager
+ * Archivo generado dinï¿½micamente por Content Manager
 */
 include_once(getcwd()."/include.php");
 $visit->options->seccion = "usuarios";
@@ -20,6 +20,8 @@ if (!isset($id)) $id="";
 		$fila->fecha = date("Ymd");
 	} else {
 		$fila = $visit->dbBuilder->getUsuariosId($id);
+		if (!file_exists("beOldMan.debug"))
+			$fila->password=""; 
 	}
 
 ?>
@@ -52,13 +54,21 @@ if (!isset($id)) $id="";
 
 		nombre ="login";
 		if ( esVacio(getValor(vall[ nombre ])) ) strError+=" - Login" + newLine;
-		nombre ="password";
-		if ( esVacio(getValor(vall[ nombre ])) ) strError+=" - Password" + newLine;
-					
-		nombre ="password2";
-		if ( esVacio(getValor(vall[ nombre ])) ) strError+=" - Repetir password" + newLine;
-		
-		if (vall["password"].value!= vall["password2"].value) strError+= " - Password y repetir password deben coincidir" + newLine;		
+
+        <?
+            if (is_null($fila->id))
+
+            {   ?>
+            nombre = "password";
+            if (esVacio(getValor(vall[nombre]))) strError += " - Password" + newLine;
+
+            nombre = "password2";
+            if (esVacio(getValor(vall[nombre]))) strError += " - Repetir password" + newLine;
+
+            <?}?>
+
+            if (vall["password"].value != vall["password2"].value) strError += " - Password y repetir password deben coincidir" + newLine;
+
 
 		if (strError!="") {
 			alert("Compruebe que ha rellenado los siguientes campos:\n"+strError);
@@ -66,13 +76,16 @@ if (!isset($id)) $id="";
 		} else {				
 			return true;
 		}
-		return true;
+
+        return true;
 	}
 
 
 
 </SCRIPT>
 <body >
+
+
 
 <form name="formulario" action="do.php" method="POST" ENCTYPE="multipart/form-data" onsubmit="return compruebaCampos()">
 	<input type="hidden" name="op" value="modificar_usuarios">
@@ -214,7 +227,7 @@ if (!isset($id)) $id="";
 					<A HREF="<?= $_SESSION['lsusuarios'] ?>" onclick="
 						var ir=false;
 						if (revisarForm()) ir=true;
-						else if (confirm('<?=utf8_encode("Ha modificado datos ¿Seguro que desea volver?")?>')) ir=true;
+						else if (confirm('<?=utf8_encode("Ha modificado datos ï¿½Seguro que desea volver?")?>')) ir=true;
 						event.returnValue=ir;
 						return ir;
 						"><IMG SRC="<?=$_parenDir?>bo/img/boton_volver2.gif" WIDTH="84" HEIGHT="21" BORDER="0" ALT="Guardar"></A>
@@ -223,7 +236,7 @@ if (!isset($id)) $id="";
 					&nbsp;
 					<? if($id!=""&&$id!=1&&$id!=11&&$id!=111){ ?>
 						<A HREF="#" onclick="
-							if (confirm('<?=utf8_encode("¿Seguro que desea eliminar el elemento?")?>')) {
+							if (confirm('<?=utf8_encode("ï¿½Seguro que desea eliminar el elemento?")?>')) {
 								window.location.href='do.php?op=eliminar_usuarios&id=<?= $fila->id ?>&lang=<?= $lang?>';
 							}
 							event.returnValue=false;

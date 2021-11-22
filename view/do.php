@@ -9,7 +9,12 @@ if ($op=="login") {
 	$user = $visit->dbBuilder->getUsuariosLogin( $correo );
 	if ($user=="") $encontrado=false;
 	session_start();
-	if ( ($user->password == $dict["password"]) && ($user->login==$dict["login"] ) ) {
+
+	// Añadida Seguridad en Login Porr Joaquin Gayoso-Cabada 02102021
+	if ( password_verify($dict["password"], $user->password) && ($user->login==$dict["login"] ) ) {
+	// Fin Añadida Seguridad en Login Porr Joaquin Gayoso-Cabada 02102021	
+		
+	//if ( ($user->password == $dict["password"]) && ($user->login==$dict["login"] ) ) {
 		// alfredo 140715  $session->idusuario = $user->id;
 		$_SESSION["idusuario"] = $user->id;
 		$_SESSION['name'] = $user->login;

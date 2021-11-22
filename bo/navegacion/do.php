@@ -5,12 +5,16 @@ $id =  $dict["id"];
 $idpagina = $dict["idpagina"];
 $tipocontenidos = $dict["tipocontenidos"];
 
+// Modificaion de Joaquin Gayoso-Cabada en 04-10-2021 para que no pille el protocolo cuando esta definido
+if (!empty($dict["protocolo"]))
+    $dict["url"]=preg_replace( "#^[^:/.]*[:/]+#i", "", $dict["url"] );
+// FIN Modificaion de Joaquin Gayoso-Cabada en 04-10-2021 para que no pille el protocolo cuando esta definido
+
 
 //$visit->debuger->enable(true);
 //var_dump($dict);
 if ($op=="") {
 }
-
 // COMANAGER 1.0: TABLA navegacion
 else if ($op=="modificar_navegacion") {
 	if ($id!="") {
@@ -21,6 +25,7 @@ else if ($op=="modificar_navegacion") {
 		$obj = new ClsNavegacion();
 		$objPrevio = $obj;
 		$obj->estableceCampos($dict);
+
 		$obj->id="";
 		$obj->tipo ="I";
 	}

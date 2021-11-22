@@ -1,7 +1,7 @@
 <? 
 
 /* 
- * Archivo generado dinámicamente por Content Manager
+ * Archivo generado dinï¿½micamente por Content Manager
 */
 include_once(getcwd()."/include.php");
 //if (!$visit->options->tieneAcceso("ls",new ClsUsuarios())) $visit->options->sinAcceso();
@@ -39,7 +39,7 @@ if ($orden=="") $orden ="nombre";
 if ($orden_tipo=="") $orden_tipo ="ASC";
 $ordenar = $orden." ".$orden_tipo;
 /*
- * Descomentar y sustituir para Metodo de obtención de filas directo sin filtros.
+ * Descomentar y sustituir para Metodo de obtenciï¿½n de filas directo sin filtros.
  $count = $visit->dbBuilder->getUsuariosCount(); 
  $inicio = ( $npag - 1 ) * $visit->options->paginacion + 1;
  $filas = $visit->dbBuilder->getUsuariosLimit($inicio -1 ,$visit->options->paginacion);
@@ -59,13 +59,13 @@ if ($count==0) $inicio=0;
 $filas = $visit->dbBuilder->getTablaFiltradaLimit($usuarios, $inicio - 1 ,$visit->options->paginacion);
 
 // COMANAGER 1.0: Codigo personalizado
-	function getTitulo() {
+/**	function getTitulo() {
 		return $this->id;
 	} 
 	function getAvance() {
 		global $visit;
 		return $visit->util->acortaCadena( $this->id );
-	} 
+	}**/
 // COMANAGER 1.0: Fin Codigo personalizado
 ?>	
 			<script>
@@ -122,7 +122,7 @@ $filas = $visit->dbBuilder->getTablaFiltradaLimit($usuarios, $inicio - 1 ,$visit
 		<TABLE  border="0" width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #CCCCCC;">
 			<TR>
 				<TD width="30%" height="24" align="left"  background="/bo/img/backoffice_fondo_cab_tabla.jpg">&nbsp;[<?= $inicio ?>-<?= $visit->util->muestrahastareg($visit->options->paginacion,$count,$npag) ?>] de <?= $count ?>&nbsp;
-					<? $valoresPaginacion=split(",","20,40,60,100,200,400"); ?>
+					<? $valoresPaginacion=preg_split(",","20,40,60,100,200,400"); ?>
 					<select name ="paginacion"  class="selectpeque" style="width:60px;" onChange="window.location.href=construyeUrlMenosMas(window.location.href,'paginacion,npag','paginacion='+formlistado.paginacion.value)" >
 						<? for ($i=0;$i<count($valoresPaginacion);$i++) { ?>
 							<option value="<?= $valoresPaginacion[$i] ?>" <? if ($visit->options->paginacion==$valoresPaginacion[$i]) print "selected"; ?>><?= $valoresPaginacion[$i] ?>
@@ -295,7 +295,7 @@ $filas = $visit->dbBuilder->getTablaFiltradaLimit($usuarios, $inicio - 1 ,$visit
 <TABLE  width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #CCCCCC;">
 	<TR>
 		<TD width="30%" height="24" align="left"  background="/bo/img/backoffice_fondo_cab_tabla.jpg">&nbsp;[<?= $inicio ?>-<?= $visit->util->muestrahastareg($visit->options->paginacion,$count,$npag) ?>] de <?= $count ?>&nbsp;
-			<? $valoresPaginacion=split(",","20,40,60,100,200,400"); ?>
+			<? $valoresPaginacion=preg_split(",","20,40,60,100,200,400"); ?>
 		</TD>
 		<TD width="40%" nowrap background="/bo/img/backoffice_fondo_cab_tabla.jpg" align="center">
 		

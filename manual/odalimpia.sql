@@ -1,13 +1,13 @@
--- MySQL dump 10.13  Distrib 5.7.12, for Win64 (x86_64)
+-- MariaDB dump 10.19  Distrib 10.4.21-MariaDB, for Win64 (AMD64)
 --
--- Host: localhost    Database: oda2017
+-- Host: 127.0.0.1    Database: oda_secure
 -- ------------------------------------------------------
--- Server version	5.5.5-10.1.13-MariaDB
+-- Server version	10.4.21-MariaDB
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
+/*!40101 SET NAMES utf8mb4 */;
 /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
 /*!40103 SET TIME_ZONE='+00:00' */;
 /*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
@@ -27,7 +27,7 @@ CREATE TABLE `contenidos_pagina` (
   `idpagina` int(11) DEFAULT NULL,
   `tipo` varchar(255) DEFAULT NULL,
   `imagen` varchar(255) DEFAULT NULL,
-  `contenido` text,
+  `contenido` text DEFAULT NULL,
   `orden` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=17 DEFAULT CHARSET=utf8;
@@ -138,7 +138,7 @@ CREATE TABLE `mensajes` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `lang` varchar(255) DEFAULT NULL,
   `atributo` varchar(255) DEFAULT NULL,
-  `valor` text,
+  `valor` text DEFAULT NULL,
   `grupo` varchar(255) DEFAULT NULL,
   `formato` varchar(255) DEFAULT NULL,
   `tipo` varchar(255) DEFAULT NULL,
@@ -177,7 +177,7 @@ CREATE TABLE `navegacion` (
   `tipo` varchar(255) DEFAULT NULL,
   `nombreseo` varchar(255) DEFAULT NULL,
   `imagen` varchar(255) DEFAULT NULL,
-  `contenido` text,
+  `contenido` text DEFAULT NULL,
   `url` varchar(255) DEFAULT NULL,
   `tiene_contenido` varchar(255) DEFAULT NULL,
   `protocolo` varchar(255) DEFAULT NULL,
@@ -235,7 +235,7 @@ DROP TABLE IF EXISTS `paginas`;
 CREATE TABLE `paginas` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `titulo` varchar(255) DEFAULT NULL,
-  `contenido` text,
+  `contenido` text DEFAULT NULL,
   `visible` char(1) DEFAULT NULL,
   `documento` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
@@ -287,7 +287,7 @@ DROP TABLE IF EXISTS `preferencias_presentacion`;
 CREATE TABLE `preferencias_presentacion` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `atributo` varchar(255) DEFAULT NULL,
-  `valor` text,
+  `valor` text DEFAULT NULL,
   `tipo` varchar(255) DEFAULT NULL,
   `etiqueta` varchar(255) DEFAULT NULL,
   `orden` int(11) DEFAULT NULL,
@@ -381,7 +381,7 @@ CREATE TABLE `text_data` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `idov` int(11) DEFAULT NULL,
   `idseccion` int(11) DEFAULT NULL,
-  `value` text,
+  `value` text DEFAULT NULL,
   `idrecurso` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `idov` (`idov`),
@@ -416,7 +416,7 @@ CREATE TABLE `usuarios` (
   `rol` varchar(255) DEFAULT NULL,
   `ultimo_acceso` varchar(20) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=146 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=147 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -425,7 +425,7 @@ CREATE TABLE `usuarios` (
 
 LOCK TABLES `usuarios` WRITE;
 /*!40000 ALTER TABLE `usuarios` DISABLE KEYS */;
-INSERT INTO `usuarios` VALUES (11,'admin1','admin2','test@test.test','admin','admin','B','20130528145220'),(111,'user1','user2','test@test.test','user','user','C','20130528145128'),(1,'super1','super2','test@test.test','superadmin','superadmin','A','20130706165555');
+INSERT INTO `usuarios` VALUES (11,'admin1','admin2','test@test.test','admin','$2y$10$dh4NKX4LpbwjLY0KaDzuZOWhzFnwR3v4tCzSIyBe67ZzscFPJXpEe','B','20130528145220'),(111,'user1','user2','test@test.test','user','$2y$10$fR6fzJs2JvL/SerGgYgSUOAPgPit1KxEuzCdwdZh1vs3YLIw7yBai','C','20130528145128'),(1,'super1','super2','test@test.test','superadmin','$2y$10$3W6k5bObyfFzt7Musr12buH47tgElMZxdMlmDO5VdI0Z9WE9kgVRy','A','20211002180833');
 /*!40000 ALTER TABLE `usuarios` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -452,14 +452,6 @@ LOCK TABLES `virtual_object` WRITE;
 /*!40000 ALTER TABLE `virtual_object` DISABLE KEYS */;
 /*!40000 ALTER TABLE `virtual_object` ENABLE KEYS */;
 UNLOCK TABLES;
-
---
--- Dumping events for database 'oda2017'
---
-
---
--- Dumping routines for database 'oda2017'
---
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -470,4 +462,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-10-26 12:03:25
+-- Dump completed on 2021-10-02 18:10:42

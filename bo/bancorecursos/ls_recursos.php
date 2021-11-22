@@ -293,7 +293,7 @@ $urlName=$visit->util->construyeUrl( basename ($SCRIPT_NAME), $dictNuevo);
 					<TD>
 						<?
 							$current_dir=basename($path);
-							$parent_dir= ereg_replace("/$current_dir$","",$path);
+							$parent_dir= preg_replace("/$current_dir$","",$path);
 							
 						
 						?>

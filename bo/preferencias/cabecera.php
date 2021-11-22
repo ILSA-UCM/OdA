@@ -27,7 +27,7 @@ $preferencias_seguridad=$visit->dbBuilder->getPreferenciaFromAtributo("seguridad
 //extension de archivos
 $prefExtension = $visit->dbBuilder->getPreferenciaFromAtributo("extension_archivos");
 $extensiones = array();
-if($prefExtension != "")	$extensiones =split(";",$prefExtension->valor);	
+if($prefExtension != "")	$extensiones =preg_split(";",$prefExtension->valor);	
 
 
 //numero de decimales a mostar en los campos numericos

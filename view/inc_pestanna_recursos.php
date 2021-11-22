@@ -1,4 +1,15 @@
-<? 
+<?
+function str_replace_first($from, $to, $subject)
+{
+    $from = '/'.preg_quote($from, '/').'/';
+
+
+
+    return preg_replace($from, $to, $subject, 1);
+}
+?>
+
+<?
 //$dict = $visit->util->getRequest(); 
 //********************************************
 // 140727 alfredo RECURSOS AJENOS, para tener en cuenta que ahora en idresource_refered se guarda el id del recurso referenciado 
@@ -92,7 +103,7 @@ else{
 			<?
 				$caminoItemsStr = $visit->util->obtenerCaminoCategoriaStr($dictFilas, "", $idsec2->id);
 				$caminoItems =  substr( $caminoItemsStr, 1, strlen($caminoItemsStr)-2);
-				$caminoItems =  split(";",$caminoItems);
+				$caminoItems =  preg_split(";",$caminoItems);
 				$ancho=18*(count($caminoItems)-2);
 			?>
 
@@ -144,7 +155,7 @@ else{
 						<?
 							$caminoItemsStr = $visit->util->obtenerCaminoCategoriaStr($dictFilas, "", $idsec3->id);
 							$caminoItems =  substr( $caminoItemsStr, 1, strlen($caminoItemsStr)-2);
-							$caminoItems =  split(";",$caminoItems);
+							$caminoItems =  preg_split(";",$caminoItems);
 							$ancho=18*(count($caminoItems)-2);
 						?>
 						<?
@@ -195,7 +206,7 @@ else{
 							<?
 								$caminoItemsStr = $visit->util->obtenerCaminoCategoriaStr($dictFilas, "", $idsec4->id);
 								$caminoItems =  substr( $caminoItemsStr, 1, strlen($caminoItemsStr)-2);
-								$caminoItems =  split(";",$caminoItems);
+								$caminoItems =  preg_split(";",$caminoItems);
 								$ancho=18*(count($caminoItems)-2);
 							?>
 							<? 
