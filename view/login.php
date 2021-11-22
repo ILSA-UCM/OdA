@@ -43,9 +43,11 @@ if ($_SESSION["idusuario"]!=""){
 	</head>
 <body>
 
+<?include_once("imagenes_cabecera_size.php");?>
+
 	<div class="header">
 		<a href="<?= $_parenDir ?>view/paginas/view_paginas.php?id=1">
-			<IMG SRC="<?= $_parenDir."html/view/".trad("datos_imagen")?>" WIDTH="1152" height="120" BORDER="0" ALT="<?= trad("datos_tienda_titulo") ?>">
+			<IMG SRC="<?= $_parenDir."html/view/".trad("datos_imagen")?>" WIDTH="<?=$i_width?>" height="<?=$i_height?>" BORDER="0" ALT="<?= trad("datos_tienda_titulo") ?>">
 		</a>
 	</div>
 	

@@ -26,34 +26,17 @@ $visit->options->sectionData=$dictFilasSectionData;
 	<script SRC="<?=$_parenDir?>view/js/combobox.js"></script>
 	<script>appname="<?=APP_NAME?>"</script>
 	<? include_once(dirname(__FILE__)."/analiticstracking.php");?>
-	<link rel="stylesheet" href="<?=$_parenDir?>/view/css/smoothness/jquery-ui-1.8.16.custom.css">		
-	
-	
-	<META NAME="Author" CONTENT="Universidad Complutense de Madrid">
+	<link rel="stylesheet" href="<?=$_parenDir?>/view/css/smoothness/jquery-ui-1.8.16.custom.css">
+    <link rel="stylesheet" href="<?=$_parenDir?>/view/css_light.css">
+
+    <META NAME="Author" CONTENT="Universidad Complutense de Madrid">
 	<META NAME="Keywords" CONTENT="<?= trad("datos_palabras")  ?>">
 	<META NAME="Description" CONTENT="<?=trad("datos_descripcion") ?>">
 </HEAD>
 
 <STYLE>
 	<?
-		//$visit->debuger->enable(true);
-	/*	$interior_borde="#5168B8";
-		$interior_fondo="#DDDAA2";
-		$interior_fondo2="#FEFEFE";
-		$bloque_borde="#bd9d59";
-		//COLORES DE TEXTO
-		$c_texto["negro"]="#000000"; 
-		$c_texto["gris"]="#666666"; 
-		$c_texto["rojo"]="#971605"; 
-		$c_texto["marron"]="#6d3605"; 
-		$c_texto["blanco"]="#ffffff"; 
-		$c_texto["amarillo"]="#deb90e"; 
-		
-		$imagen_fondo_global =conf("imagen_fondo_global");
-		$color_fondo =conf("color_fondo");
-		$imagen_superpuesta =conf("imagen_superpuesta");
-		*/
-		 include("css.php");  
+		 include("css_light.php");
 	?>
 </STYLE>
 <?

@@ -9,10 +9,11 @@
 	<script SRC="<?=$_parenDir?>view/js/jquery-1.6.2.min.js"></script>
 	<script SRC="<?=$_parenDir?>view/js/jquery-ui-1.8.16.custom.min.js"></script>
 	<script SRC="<?=$_parenDir?>view/js/combobox.js"></script>
-	<link rel="stylesheet" href="css/smoothness/jquery-ui-1.8.16.custom.css">	
-	
-	
-	<META NAME="Author" CONTENT="Universidad Complutense de Madrid & Bernardo Chenlo">
+	<link rel="stylesheet" href="css/smoothness/jquery-ui-1.8.16.custom.css">
+    <link rel="stylesheet" href="<?=$_parenDir?>/view/css_light.css">
+
+
+    <META NAME="Author" CONTENT="Universidad Complutense de Madrid">
 	<META NAME="Keywords" CONTENT="<?= trad("datos_palabras")  ?>">
 	<META NAME="Description" CONTENT="<?=trad("datos_descripcion") ?>">
 </HEAD>
@@ -25,7 +26,7 @@ $c_texto["marron"]="#6d3605";
 $c_texto["blanco"]="#ffffff"; 
 $c_texto["amarillo"]="#deb90e"; */
 
-<? include("css.php"); ?>
+<? include("css_light.php"); ?>
 
 
 
