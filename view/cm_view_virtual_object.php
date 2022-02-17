@@ -474,7 +474,7 @@ include_once(dirname(__FILE__)."/bottom.php");
 ?>
 
 <?php
-if (!file_exists("noShare.debug")) {
+if (file_exists("noShare.debug")) {
 
 ?>
 
