@@ -473,15 +473,27 @@ include_once(dirname(__FILE__)."/bottom.php");
 }
 ?>
 
+<?php
+if (!file_exists("noShare.debug")) {
 
-<script src="minishare-0.0.1.js"></script>
-<script>
+?>
 
-$( document ).ready(function() {
+    <script src="minishare-0.0.1.js"></script>
+    <script>
 
-	$.miniShare( {
-	message: "Comparte esta Ficha",
-	done_message: "Gracias por Compartir"
-	});
-});
-</script>
+        $( document ).ready(function() {
+
+            $.miniShare( {
+                message: "Comparte esta Ficha",
+                done_message: "Gracias por Compartir"
+            });
+        });
+    </script>
+
+   <?php
+}
+
+?>
+
+
+
