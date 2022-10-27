@@ -2,6 +2,10 @@
 
 include_once ("../../resources/include.php"); 
 include_once ("../top_services.php"); 
+
+header('Content-Type: application/json; charset=utf-8');
+
+
 ?>
 
 <?php
@@ -49,7 +53,7 @@ $link=Conectarse();
 
 	$arrayVO = array();
 	$result=mysqli_query($link,"SELECT * FROM virtual_object"); 
-	while($row = mysqli_fetch_array($result))
+	while($row = mysqli_fetch_assoc($result))
 	{
 		$arrayVO[] = $row;
 
@@ -61,7 +65,7 @@ $link=Conectarse();
 	
 	$arrayFI = array();
 	$result=mysqli_query($link,"SELECT * FROM resources"); 
-	while($row = mysqli_fetch_array($result))
+	while($row = mysqli_fetch_assoc($result))
 	{
 		$arrayFI[] = $row;
 
