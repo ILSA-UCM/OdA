@@ -3,7 +3,7 @@ include_once("include.php");
 include_once(getcwd()."/top.php"); 
 //$visit->debuger->enable(true);
 $dict = $visit->util->getRequest();
-$id = $dict["id"];
+$id = intval($dict["id"]);
 if (!isset($id)) $id="";
 if ($id=="") $visit->util->redirect($_parenDir."index.php");
 $fila = $visit->dbBuilder->getPaginasId($id);
